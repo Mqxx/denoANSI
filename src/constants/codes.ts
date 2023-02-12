@@ -4,56 +4,63 @@
  */
 export enum codes {
     /**
-     * `\x07` | `\a`
+     *  `\x07` | `\a`
      * 
-     * @desc Terminal bell
-     * 
+     *  @desc Terminal bell
      */
     BEL = '\x07',
+
     /**
-     * `\x08` | `\b`
+     *  `\x08` | `\b`
      * 
-     * @desc Backspace
+     *  @desc Backspace
      */
     BS = '\x08',
+
     /**
-     * `\x09` | `\t`
+     *  `\x09` | `\t`
      * 
-     * @desc Horizontal TAB
+     *  @desc Horizontal TAB
      */
     HT = '\x09',
+
     /**
-     * `\x0A` | `\n`
+     *  `\x0A` | `\n`
      * 
-     * @desc Linefeed (newline)
+     *  @desc Linefeed (newline)
      */
     LF = '\x0A',
+
     /**
-     * `\x0B` | `\v`
+     *  `\x0B` | `\v`
      * 
-     * @desc Vertical TAB
+     *  @desc Vertical TAB
      */
     VT = '\x0B',
+
     /**
-     * `\x0C` | `\f`
+     *  `\x0C` | `\f`
      * 
-     * @desc Formfeed
+     *  @desc Formfeed
      */
     FF = '\x0C',
+
     /**
-     * `\x0D` | `\r`
+     *  `\x0D` | `\r`
      * 
-     * @desc Carriage return (linestart)
+     *  @desc Carriage return (linestart)
      */
     CR = '\x0D',
+
     /**
-     * `\x1B` | `\e*`
+     *  `\x1B` | `\e*`
      * 
-     * <i>*not guaranteed to work<i>
+     * *\*not guaranteed to work in all languages and compilers*
      * 
      * @desc Escape character
      */
     ESC = '\x1B',
+
     /**
      * `\x7F`
      * 
