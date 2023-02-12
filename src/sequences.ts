@@ -1,8 +1,8 @@
 export enum sequences {
     ESC = '\x1B',
-    CSI = '[',
-    OSC = ']',
-    SEP = ';',
-    BEL = '\x07'
+    CSI = '\x1B[',
+    DCS = '\x1BP',
+    OSC = '\x1B]',
+    SEP = ';'
 
 }
