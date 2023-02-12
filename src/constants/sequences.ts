@@ -1,22 +1,32 @@
 export enum sequences {
     /**
-     * Sequence start (Escape)
+     * `\x1B`
+     * 
+     * @desc Sequence start (Escape)
      */
     ESC = '\x1B',   
     /**
-     * Control Sequence Introducer
+     * `\x1B[`
+     * 
+     * @desc Control Sequence Introducer
      */
     CSI = '\x1B[',
     /**
-     * Device Control String
+     * `\x1BP`
+     * 
+     * @desc Device Control String
      */
     DCS = '\x1BP',
     /**
-     * Operating System Command
+     * `\x1B]`
+     * 
+     * @desc Operating System Command
      */
     OSC = '\x1B]',
     /**
-     * Separator
+     * `;`
+     * 
+     * @desc Separator
      */
     SEP = ';'
 

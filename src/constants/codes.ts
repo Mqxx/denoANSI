@@ -2,12 +2,12 @@
  * ANSI codes
  * @enum {string}
  */
-
 export enum codes {
     /**
      * `\x07` | `\a`
      * 
      * @desc Terminal bell
+     * 
      */
     BEL = '\x07',
     /**
