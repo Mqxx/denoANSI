@@ -1,6 +1,9 @@
 /**
- * @enum {string}
+ * `<CSI>` `{color 1};{color 2};{color n}m`
+ * 
  * @desc ANSI normal foreground colors
+ * 
+ * @enum {string}
  */
 export enum colorsNormalFG {
     /**
@@ -69,15 +72,18 @@ export enum colorsNormalFG {
     /**
      * `<CSI>` `39`
      * 
-     * @desc White foreground
+     * @desc Deafult foreground
      */
     DEFAULT = '39',
 
 }
 
 /**
- * @enum {string}
+ * `<CSI>` `{color 1};{color 2};{color n}m`
+ * 
  * @desc ANSI normal background colors
+ * 
+ * @enum {string}
  */
 export enum colorsNormalBG {
     /**
@@ -146,14 +152,17 @@ export enum colorsNormalBG {
     /**
      * `<CSI>` `49`
      * 
-     * @desc White background
+     * @desc Default background
      */
     DEFAULT = '49',
 }
 
 /**
- * @enum {string}
+ * `<CSI>` `{color 1};{color 2};{color n}m`
+ * 
  * @desc ANSI bright foreground colors
+ * 
+ * @enum {string}
  */
 export enum colorsBrightFG {
     /**
@@ -218,12 +227,22 @@ export enum colorsBrightFG {
      * @desc Bright white foreground
      */
     BRIGHT_WHITE = '97',
+    
+    /**
+     * `<CSI>` `39`
+     * 
+     * @desc Default foreground
+     */
+    DEFAULT = '39',
 }
 
 /**
- * @enum {string}
+ * `<CSI>` `{color 1};{color 2};{color n}m`
+ *
  * @desc ANSI bright background colors
- */
+ * 
+ * @enum {string}
+*/
 export enum colorsBrightBG {
     /**
      * `<CSI>` `0`
@@ -286,5 +305,12 @@ export enum colorsBrightBG {
      * 
      * @desc Bright white background
      */
-    BRIGHT_WHITG = '107'
+    BRIGHT_WHITG = '107',
+
+    /**
+     * `<CSI>` `39`
+     * 
+     * @desc Default background
+     */
+    DEFAULT = '39',
 }
