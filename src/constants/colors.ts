@@ -5,7 +5,7 @@
  * @readonly
  * @enum {string}
  */
-export enum colorsNormalFG {
+export enum colors8NormalFG {
     /**
      * `<CSI>` `0`
      * 
@@ -85,7 +85,7 @@ export enum colorsNormalFG {
  * @readonly
  * @enum {string}
  */
-export enum colorsNormalBG {
+export enum colors8NormalBG {
     /**
      * `<CSI>` `0`
      * 
@@ -164,7 +164,7 @@ export enum colorsNormalBG {
  * @readonly
  * @enum {string}
  */
-export enum colorsBrightFG {
+export enum colors8BrightFG {
     /**
      * `<CSI>` `0`
      * 
@@ -243,7 +243,7 @@ export enum colorsBrightFG {
  * @readonly
  * @enum {string}
 */
-export enum colorsBrightBG {
+export enum colors8BrightBG {
     /**
      * `<CSI>` `0`
      * 
@@ -313,4 +313,23 @@ export enum colorsBrightBG {
      * @desc Default background
      */
     DEFAULT = '39',
+}
+
+// TODO // TODO // TODO // TODO // TODO // TODO // TODO // TODO // TODO // TODO // TODO // TODO // TODO // TODO // TODO // TODO //
+
+export enum colors256 {
+
+    /**
+     * `<CSI>` `38;5;`
+     * 
+     * @desc Foreground
+     */
+    FG = '38;5;',
+
+    /**
+     * `<CSI>` `48;5;`
+     * 
+     * @desc Background
+     */
+    BG = '48;5;'
 }
