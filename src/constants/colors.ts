@@ -1,148 +1,290 @@
 /**
- * ANSI graphics mode
  * @enum {string}
+ * @desc ANSI normal foreground colors
  */
-export enum colors {
+export enum colorsNormalFG {
     /**
      * `<CSI>` `0`
      * 
      * @desc Reset foreground
      */
-    RESET_FG = '0',
-
-    /**
-     * `<CSI>` `0`
-     * 
-     * @desc Reset background
-     */
-    RESET_BG = '0',
+    RESET = '0',
 
     /**
      * `<CSI>` `30`
      * 
      * @desc Black foreground
      */
-    BLACK_FG = '30',
+    BLACK = '30',
 
     /**
      * `<CSI>` `31`
      * 
      * @desc Red foreground
      */
-    RED_FG = '31',
+    RED = '31',
 
     /**
      * `<CSI>` `32`
      * 
      * @desc Green foreground
      */
-    GREEN_FG = '32',
+    GREEN = '32',
 
     /**
      * `<CSI>` `33`
      * 
      * @desc Yellow foreground
      */
-    YELLOW_FG = '33',
+    YELLOW = '33',
 
     /**
      * `<CSI>` `34`
      * 
      * @desc Blue foreground
      */
-    BLUE_FG = '34',
+    BLUE = '34',
 
     /**
      * `<CSI>` `35`
      * 
      * @desc Magenta foreground
      */
-    MAGENTA_FG = '35',
+    MAGENTA = '35',
 
     /**
      * `<CSI>` `36`
      * 
      * @desc Cyan foreground
      */
-    CYAN_FG = '36',
+    CYAN = '36',
 
     /**
      * `<CSI>` `37`
      * 
      * @desc White foreground
      */
-    WHITE_FG = '37',
+    WHITE = '37',
 
     /**
      * `<CSI>` `39`
      * 
      * @desc White foreground
      */
-    DEFAULT_FG = '39',
+    DEFAULT = '39',
+
+}
+
+/**
+ * @enum {string}
+ * @desc ANSI normal background colors
+ */
+export enum colorsNormalBG {
+    /**
+     * `<CSI>` `0`
+     * 
+     * @desc Reset background
+     */
+    RESET = '0',
 
     /**
      * `<CSI>` `40`
      * 
      * @desc Black background
      */
-    BLACK_BG = '40',
+    BLACK = '40',
 
     /**
      * `<CSI>` `41`
      * 
      * @desc Red background
      */
-    RED_BG = '41',
+    RED = '41',
 
     /**
      * `<CSI>` `42`
      * 
      * @desc Green background
      */
-    GREEN_BG = '42',
+    GREEN = '42',
 
     /**
      * `<CSI>` `43`
      * 
      * @desc Yellow background
      */
-    YELLOW_BG = '43',
+    YELLOW = '43',
 
     /**
      * `<CSI>` `44`
      * 
      * @desc Blue background
      */
-    BLUE_BG = '44',
+    BLUE = '44',
 
     /**
      * `<CSI>` `45`
      * 
      * @desc Magenta background
      */
-    MAGENTA_BG = '45',
+    MAGENTA = '45',
 
     /**
      * `<CSI>` `46`
      * 
      * @desc Cyan background
      */
-    CYAN_BG = '46',
+    CYAN = '46',
 
     /**
      * `<CSI>` `47`
      * 
      * @desc White background
      */
-    WHITE_BG = '47',
+    WHITE = '47',
 
     /**
      * `<CSI>` `49`
      * 
      * @desc White background
      */
-    DEFAULT_BG = '49'
+    DEFAULT = '49',
+}
 
-    
-    
+/**
+ * @enum {string}
+ * @desc ANSI bright foreground colors
+ */
+export enum colorsBrightFG {
+    /**
+     * `<CSI>` `0`
+     * 
+     * @desc Reset bright foreground
+     */
+    RESET = '0',
+
+    /**
+     * `<CSI>` `90`
+     * 
+     * @desc Bright black foreground
+     */
+    BRIGHT_BLACK = '90',
+
+    /**
+     * `<CSI>` `91`
+     * 
+     * @desc Bright red foreground
+     */
+    BRIGHT_RED = '91',
+
+    /**
+     * `<CSI>` `92`
+     * 
+     * @desc Bright green foreground
+     */
+    BRIGHT_GREEN = '92',
+
+    /**
+     * `<CSI>` `93`
+     * 
+     * @desc Bright yellow foreground
+     */
+    BRIGHT_YELLOW = '93',
+
+    /**
+     * `<CSI>` `94`
+     * 
+     * @desc Bright blue foreground
+     */
+    BRIGHT_BLUE = '94',
+
+    /**
+     * `<CSI>` `95`
+     * 
+     * @desc Bright magenta foreground
+     */
+    BRIGHT_MAGENTA = '95',
+
+    /**
+     * `<CSI>` `96`
+     * 
+     * @desc Bright cyan foreground
+     */
+    BRIGHT_CYAN = '96',
+
+    /**
+     * `<CSI>` `97`
+     * 
+     * @desc Bright white foreground
+     */
+    BRIGHT_WHITE = '97',
+}
+
+/**
+ * @enum {string}
+ * @desc ANSI bright background colors
+ */
+export enum colorsBrightBG {
+    /**
+     * `<CSI>` `0`
+     * 
+     * @desc Reset bright background
+     */
+    RESET = '0',
+
+    /**
+     * `<CSI>` `100`
+     * 
+     * @desc Bright black background
+     */
+    BRIGHT_BLACK = '100',
+
+    /**
+     * `<CSI>` `101`
+     * 
+     * @desc Bright red background
+     */
+    BRIGHT_RED = '101',
+
+    /**
+     * `<CSI>` `102`
+     * 
+     * @desc Bright green background
+     */
+    BRIGHT_GREEN = '102',
+
+    /**
+     * `<CSI>` `103`
+     * 
+     * @desc Bright yellow background
+     */
+    BRIGHT_YELLOW = '103',
+
+    /**
+     * `<CSI>` `104`
+     * 
+     * @desc Bright blue background
+     */
+    BRIGHT_BLUE = '104',
+
+    /**
+     * `<CSI>` `105`
+     * 
+     * @desc Bright magenta background
+     */
+    BRIGHT_MAGENTA = '105',
+
+    /**
+     * `<CSI>` `106`
+     * 
+     * @desc Bright cyan background
+     */
+    BRIGHT_CYAN = '106',
+
+    /**
+     * `<CSI>` `107`
+     * 
+     * @desc Bright white background
+     */
+    BRIGHT_WHITG = '107'
 }
