@@ -2,7 +2,7 @@
  * `<CSI>` `{color 1};{color 2};{color n}m`
  * 
  * @desc ANSI normal foreground colors
- * 
+ * @readonly
  * @enum {string}
  */
 export enum colorsNormalFG {
@@ -82,7 +82,7 @@ export enum colorsNormalFG {
  * `<CSI>` `{color 1};{color 2};{color n}m`
  * 
  * @desc ANSI normal background colors
- * 
+ * @readonly
  * @enum {string}
  */
 export enum colorsNormalBG {
@@ -161,7 +161,7 @@ export enum colorsNormalBG {
  * `<CSI>` `{color 1};{color 2};{color n}m`
  * 
  * @desc ANSI bright foreground colors
- * 
+ * @readonly
  * @enum {string}
  */
 export enum colorsBrightFG {
@@ -240,7 +240,7 @@ export enum colorsBrightFG {
  * `<CSI>` `{color 1};{color 2};{color n}m`
  *
  * @desc ANSI bright background colors
- * 
+ * @readonly
  * @enum {string}
 */
 export enum colorsBrightBG {
