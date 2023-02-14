@@ -336,5 +336,5 @@ export enum colors256BG {
      * 
      * @desc Background
      */
-    DARK_VOID = '48;5;0m'
+    DARK_VOID = '48;5;'
 }
