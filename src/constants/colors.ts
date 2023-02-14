@@ -319,7 +319,7 @@ export enum colors8BrightBG {
 
 
 
-export enum colors256 {
+export enum colors256FG {
 
     /**
      * `<CSI>` `38;5;`
@@ -327,11 +327,14 @@ export enum colors256 {
      * @desc Foreground
      */
     FG = '38;5;',
+}
+
+export enum colors256BG {
 
     /**
      * `<CSI>` `48;5;`
      * 
      * @desc Background
      */
-    BG = '48;5;'
+    DARK_VOID = '48;5;0m'
 }
