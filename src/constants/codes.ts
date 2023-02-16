@@ -1,5 +1,8 @@
 /**
  * ANSI codes
+ * 
+ * @desc ANSI control codes
+ * @readonly
  * @enum {string}
  */
 export enum codes {
