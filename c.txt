@@ -1,169 +1,112 @@
+/**
+  * `<CSI>` `38;5;0`
+ * 
+ * @desc Foreground #000000
+ */
+X000000 = '48;5;0',
 
 /**
-  * `<CSI>` `38;5;232`
+  * `<CSI>` `38;5;1`
  * 
- * @desc Grayscale #080808
+ * @desc Foreground #800000
  */
-X080808 = '48;5;232',
+X800000 = '48;5;1',
 
 /**
-  * `<CSI>` `38;5;233`
+  * `<CSI>` `38;5;2`
  * 
- * @desc Grayscale #121212
+ * @desc Foreground #008000
  */
-X121212 = '48;5;233',
+X008000 = '48;5;2',
 
 /**
-  * `<CSI>` `38;5;234`
+  * `<CSI>` `38;5;3`
  * 
- * @desc Grayscale #1C1C1C
+ * @desc Foreground #808000
  */
-X1C1C1C = '48;5;234',
+X808000 = '48;5;3',
 
 /**
-  * `<CSI>` `38;5;235`
+  * `<CSI>` `38;5;4`
  * 
- * @desc Grayscale #262626
+ * @desc Foreground #000080
  */
-X262626 = '48;5;235',
+X000080 = '48;5;4',
 
 /**
-  * `<CSI>` `38;5;236`
+  * `<CSI>` `38;5;5`
  * 
- * @desc Grayscale #303030
+ * @desc Foreground #800080
  */
-X303030 = '48;5;236',
+X800080 = '48;5;5',
 
 /**
-  * `<CSI>` `38;5;237`
+  * `<CSI>` `38;5;6`
  * 
- * @desc Grayscale #3A3A3A
+ * @desc Foreground #008080
  */
-X3A3A3A = '48;5;237',
+X008080 = '48;5;6',
 
 /**
-  * `<CSI>` `38;5;238`
+  * `<CSI>` `38;5;7`
  * 
- * @desc Grayscale #444444
+ * @desc Foreground #c0c0c0
  */
-X444444 = '48;5;238',
+Xc0c0c0 = '48;5;7',
 
 /**
-  * `<CSI>` `38;5;239`
+  * `<CSI>` `38;5;8`
  * 
- * @desc Grayscale #4E4E4E
+ * @desc Foreground #808080
  */
-X4E4E4E = '48;5;239',
+X808080 = '48;5;8',
 
 /**
-  * `<CSI>` `38;5;240`
+  * `<CSI>` `38;5;9`
  * 
- * @desc Grayscale #585858
+ * @desc Foreground #ff0000
  */
-X585858 = '48;5;240',
+Xff0000 = '48;5;9',
 
 /**
-  * `<CSI>` `38;5;241`
+  * `<CSI>` `38;5;10`
  * 
- * @desc Grayscale #626262
+ * @desc Foreground #00ff00
  */
-X626262 = '48;5;241',
+X00ff00 = '48;5;10',
 
 /**
-  * `<CSI>` `38;5;242`
+  * `<CSI>` `38;5;11`
  * 
- * @desc Grayscale #6C6C6C
+ * @desc Foreground #ffff00
  */
-X6C6C6C = '48;5;242',
+Xffff00 = '48;5;11',
 
 /**
-  * `<CSI>` `38;5;243`
+  * `<CSI>` `38;5;12`
  * 
- * @desc Grayscale #767676
+ * @desc Foreground #0000ff
  */
-X767676 = '48;5;243',
+X0000ff = '48;5;12',
 
 /**
-  * `<CSI>` `38;5;244`
+  * `<CSI>` `38;5;13`
  * 
- * @desc Grayscale #808080
+ * @desc Foreground #ff00ff
  */
-X808080 = '48;5;244',
+Xff00ff = '48;5;13',
 
 /**
-  * `<CSI>` `38;5;245`
+  * `<CSI>` `38;5;14`
  * 
- * @desc Grayscale #8A8A8A
+ * @desc Foreground #00ffff
  */
-X8A8A8A = '48;5;245',
+X00ffff = '48;5;14',
 
 /**
-  * `<CSI>` `38;5;246`
+  * `<CSI>` `38;5;15`
  * 
- * @desc Grayscale #949494
+ * @desc Foreground #ffffff
  */
-X949494 = '48;5;246',
-
-/**
-  * `<CSI>` `38;5;247`
- * 
- * @desc Grayscale #9E9E9E
- */
-X9E9E9E = '48;5;247',
-
-/**
-  * `<CSI>` `38;5;248`
- * 
- * @desc Grayscale #A8A8A8
- */
-XA8A8A8 = '48;5;248',
-
-/**
-  * `<CSI>` `38;5;249`
- * 
- * @desc Grayscale #B2B2B2
- */
-XB2B2B2 = '48;5;249',
-
-/**
-  * `<CSI>` `38;5;250`
- * 
- * @desc Grayscale #BCBCBC
- */
-XBCBCBC = '48;5;250',
-
-/**
-  * `<CSI>` `38;5;251`
- * 
- * @desc Grayscale #C6C6C6
- */
-XC6C6C6 = '48;5;251',
-
-/**
-  * `<CSI>` `38;5;252`
- * 
- * @desc Grayscale #D0D0D0
- */
-XD0D0D0 = '48;5;252',
-
-/**
-  * `<CSI>` `38;5;253`
- * 
- * @desc Grayscale #DADADA
- */
-XDADADA = '48;5;253',
-
-/**
-  * `<CSI>` `38;5;254`
- * 
- * @desc Grayscale #E4E4E4
- */
-XE4E4E4 = '48;5;254',
-
-/**
-  * `<CSI>` `38;5;255`
- * 
- * @desc Grayscale #EEEEEE
- */
-XEEEEEE = '48;5;255',
+Xffffff = '48;5;15',
 

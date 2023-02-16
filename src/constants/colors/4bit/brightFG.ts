@@ -5,7 +5,7 @@
  * @readonly
  * @enum {string}
  */
-export enum colors8BrightFG {
+export enum brightFG {
     /**
      * `<CSI>` `0`
      * 

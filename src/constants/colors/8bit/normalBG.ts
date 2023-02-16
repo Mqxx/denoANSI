@@ -5,7 +5,7 @@
  * @readonly
  * @enum {string}
  */
-export enum colors256NormalBG {
+export enum normalBG {
     
     /**
      * `<CSI>` `48;5;16`
