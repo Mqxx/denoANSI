@@ -1,5 +1,8 @@
 /**
  * ANSI sequences
+ * 
+ * @desc ANSI control sequence
+ * @readonly
  * @enum {string}
  */
 export enum sequences {
