@@ -1,10 +1,10 @@
 
 
 export const erase = {
-    displayToEnd: function() : void {
+    displayFromToEnd: function() : void {
 
     },
-    displayToStart: function() : void {
+    displayFromToStart: function() : void {
 
     },
     displayAll: function() : void {
@@ -13,10 +13,10 @@ export const erase = {
     displayAllSaved: function() : void {
 
     },
-    lineToEnd: function() : void {
+    lineFromToEnd: function() : void {
         
     },
-    lineToStart: function() : void {
+    lineFromToStart: function() : void {
         
     },
     lineAll: function() : void {
