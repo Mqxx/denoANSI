@@ -1,7 +1,7 @@
 /**
  * ANSI sequences
  * 
- * @desc ANSI control sequence
+ * @desc ANSI control sequences
  * @readonly
  * @enum {string}
  */
