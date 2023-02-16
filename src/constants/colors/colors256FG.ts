@@ -1,6 +1,5 @@
 export enum colors256FG {
 
-
     /**
      * `<CSI>` `38;5;16`
      * 
