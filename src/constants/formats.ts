@@ -1,7 +1,7 @@
 /**
  * ANSI formats
  * 
- * @desc ANSI text codes format codes
+ * @desc ANSI text format codes
  * @readonly
  * @enum {string}
  */
