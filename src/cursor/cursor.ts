@@ -8,7 +8,7 @@ export const cursor = {
     home: function() : void {
         
     },
-    moveTo: function() : void {
+    moveTo: function(position : cursorPosition) : void {
 
     },
     moveUp: function() : void {
