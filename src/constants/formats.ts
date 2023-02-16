@@ -1,5 +1,8 @@
 /**
- * ANSI format
+ * ANSI formats
+ * 
+ * @desc ANSI text codes format codes
+ * @readonly
  * @enum {string}
  */
 export enum formats {
