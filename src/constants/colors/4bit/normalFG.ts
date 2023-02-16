@@ -1,7 +1,7 @@
 /**
  * `<CSI>` `{color 1};{color 2};{color n}m`
  * 
- * @desc ANSI foreground 8 colors normal
+ * @desc ANSI 4-Bit foreground colors normal
  * @readonly
  * @enum {string}
  */

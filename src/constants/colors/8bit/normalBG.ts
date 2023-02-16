@@ -1,7 +1,7 @@
 /**
  * `<CSI>` `48;5;{hex 1};{hex 2};{hex n}m`
  * 
- * @desc ANSI background 256 colors normal
+ * @desc ANSI 8-Bit background colors normal
  * @readonly
  * @enum {string}
  */
