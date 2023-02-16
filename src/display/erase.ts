@@ -1,9 +1,6 @@
 
 
 export const erase = {
-    displayTo: function() : void {
-
-    },
     displayToEnd: function() : void {
 
     },
@@ -13,19 +10,16 @@ export const erase = {
     displayAll: function() : void {
 
     },
-    lineSaved: function() : void {
+    displayAllSaved: function() : void {
 
-    },
-    lineTo: function() : void {
-        
     },
     lineToEnd: function() : void {
-
+        
     },
     lineToStart: function() : void {
-
+        
     },
     lineAll: function() : void {
-
+        
     }
 }
