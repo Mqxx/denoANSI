@@ -41,7 +41,14 @@ export enum sequences {
     /**
      * `m`
      * 
-     * @desc SColor end
+     * @desc Color end
      */
-    COLOR_END = 'm'
+    COLOR_END = 'm',
+
+    /**
+     * `m`
+     * 
+     * @desc Format end
+     */
+    FORMAT_END = 'm'
 }
