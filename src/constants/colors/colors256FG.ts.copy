@@ -1,0 +1,1517 @@
+export enum colors256FG {
+
+
+    /**
+     * `<CSI>` `38;5;16`
+     * 
+     * @desc Foreground #000000
+     */
+    x000000 = '38;5;16',
+
+    /**
+     * `<CSI>` `38;5;17`
+     * 
+     * @desc Foreground #00005f
+     */
+    x00005f = '38;5;17',
+
+    /**
+     * `<CSI>` `38;5;18`
+     * 
+     * @desc Foreground #000087
+     */
+    x000087 = '38;5;18',
+
+    /**
+     * `<CSI>` `38;5;19`
+     * 
+     * @desc Foreground #0000af
+     */
+    x0000af = '38;5;19',
+
+    /**
+     * `<CSI>` `38;5;20`
+     * 
+     * @desc Foreground #0000d7
+     */
+    x0000d7 = '38;5;20',
+
+    /**
+     * `<CSI>` `38;5;21`
+     * 
+     * @desc Foreground #0000ff
+     */
+    x0000ff = '38;5;21',
+
+    /**
+     * `<CSI>` `38;5;22`
+     * 
+     * @desc Foreground #005f00
+     */
+    x005f00 = '38;5;22',
+
+    /**
+     * `<CSI>` `38;5;23`
+     * 
+     * @desc Foreground #005f5f
+     */
+    x005f5f = '38;5;23',
+
+    /**
+     * `<CSI>` `38;5;24`
+     * 
+     * @desc Foreground #005f87
+     */
+    x005f87 = '38;5;24',
+
+    /**
+     * `<CSI>` `38;5;25`
+     * 
+     * @desc Foreground #005faf
+     */
+    x005faf = '38;5;25',
+
+    /**
+     * `<CSI>` `38;5;26`
+     * 
+     * @desc Foreground #005fd7
+     */
+    x005fd7 = '38;5;26',
+
+    /**
+     * `<CSI>` `38;5;27`
+     * 
+     * @desc Foreground #005fff
+     */
+    x005fff = '38;5;27',
+
+    /**
+     * `<CSI>` `38;5;28`
+     * 
+     * @desc Foreground #008700
+     */
+    x008700 = '38;5;28',
+
+    /**
+     * `<CSI>` `38;5;29`
+     * 
+     * @desc Foreground #00875f
+     */
+    x00875f = '38;5;29',
+
+    /**
+     * `<CSI>` `38;5;30`
+     * 
+     * @desc Foreground #008787
+     */
+    x008787 = '38;5;30',
+
+    /**
+     * `<CSI>` `38;5;31`
+     * 
+     * @desc Foreground #0087af
+     */
+    x0087af = '38;5;31',
+
+    /**
+     * `<CSI>` `38;5;32`
+     * 
+     * @desc Foreground #0087d7
+     */
+    x0087d7 = '38;5;32',
+
+    /**
+     * `<CSI>` `38;5;33`
+     * 
+     * @desc Foreground #0087ff
+     */
+    x0087ff = '38;5;33',
+
+    /**
+     * `<CSI>` `38;5;34`
+     * 
+     * @desc Foreground #00af00
+     */
+    x00af00 = '38;5;34',
+
+    /**
+     * `<CSI>` `38;5;35`
+     * 
+     * @desc Foreground #00af5f
+     */
+    x00af5f = '38;5;35',
+
+    /**
+     * `<CSI>` `38;5;36`
+     * 
+     * @desc Foreground #00af87
+     */
+    x00af87 = '38;5;36',
+
+    /**
+     * `<CSI>` `38;5;37`
+     * 
+     * @desc Foreground #00afaf
+     */
+    x00afaf = '38;5;37',
+
+    /**
+     * `<CSI>` `38;5;38`
+     * 
+     * @desc Foreground #00afd7
+     */
+    x00afd7 = '38;5;38',
+
+    /**
+     * `<CSI>` `38;5;39`
+     * 
+     * @desc Foreground #00afff
+     */
+    x00afff = '38;5;39',
+
+    /**
+     * `<CSI>` `38;5;40`
+     * 
+     * @desc Foreground #00d700
+     */
+    x00d700 = '38;5;40',
+
+    /**
+     * `<CSI>` `38;5;41`
+     * 
+     * @desc Foreground #00d75f
+     */
+    x00d75f = '38;5;41',
+
+    /**
+     * `<CSI>` `38;5;42`
+     * 
+     * @desc Foreground #00d787
+     */
+    x00d787 = '38;5;42',
+
+    /**
+     * `<CSI>` `38;5;43`
+     * 
+     * @desc Foreground #00d7af
+     */
+    x00d7af = '38;5;43',
+
+    /**
+     * `<CSI>` `38;5;44`
+     * 
+     * @desc Foreground #00d7d7
+     */
+    x00d7d7 = '38;5;44',
+
+    /**
+     * `<CSI>` `38;5;45`
+     * 
+     * @desc Foreground #00d7ff
+     */
+    x00d7ff = '38;5;45',
+
+    /**
+     * `<CSI>` `38;5;46`
+     * 
+     * @desc Foreground #00ff00
+     */
+    x00ff00 = '38;5;46',
+
+    /**
+     * `<CSI>` `38;5;47`
+     * 
+     * @desc Foreground #00ff5f
+     */
+    x00ff5f = '38;5;47',
+
+    /**
+     * `<CSI>` `38;5;48`
+     * 
+     * @desc Foreground #00ff87
+     */
+    x00ff87 = '38;5;48',
+
+    /**
+     * `<CSI>` `38;5;49`
+     * 
+     * @desc Foreground #00ffaf
+     */
+    x00ffaf = '38;5;49',
+
+    /**
+     * `<CSI>` `38;5;50`
+     * 
+     * @desc Foreground #00ffd7
+     */
+    x00ffd7 = '38;5;50',
+
+    /**
+     * `<CSI>` `38;5;51`
+     * 
+     * @desc Foreground #00ffff
+     */
+    x00ffff = '38;5;51',
+
+    /**
+     * `<CSI>` `38;5;52`
+     * 
+     * @desc Foreground #5f0000
+     */
+    x5f0000 = '38;5;52',
+
+    /**
+     * `<CSI>` `38;5;53`
+     * 
+     * @desc Foreground #5f005f
+     */
+    x5f005f = '38;5;53',
+
+    /**
+     * `<CSI>` `38;5;54`
+     * 
+     * @desc Foreground #5f0087
+     */
+    x5f0087 = '38;5;54',
+
+    /**
+     * `<CSI>` `38;5;55`
+     * 
+     * @desc Foreground #5f00af
+     */
+    x5f00af = '38;5;55',
+
+    /**
+     * `<CSI>` `38;5;56`
+     * 
+     * @desc Foreground #5f00d7
+     */
+    x5f00d7 = '38;5;56',
+
+    /**
+     * `<CSI>` `38;5;57`
+     * 
+     * @desc Foreground #5f00ff
+     */
+    x5f00ff = '38;5;57',
+
+    /**
+     * `<CSI>` `38;5;58`
+     * 
+     * @desc Foreground #5f5f00
+     */
+    x5f5f00 = '38;5;58',
+
+    /**
+     * `<CSI>` `38;5;59`
+     * 
+     * @desc Foreground #5f5f5f
+     */
+    x5f5f5f = '38;5;59',
+
+    /**
+     * `<CSI>` `38;5;60`
+     * 
+     * @desc Foreground #5f5f87
+     */
+    x5f5f87 = '38;5;60',
+
+    /**
+     * `<CSI>` `38;5;61`
+     * 
+     * @desc Foreground #5f5faf
+     */
+    x5f5faf = '38;5;61',
+
+    /**
+     * `<CSI>` `38;5;62`
+     * 
+     * @desc Foreground #5f5fd7
+     */
+    x5f5fd7 = '38;5;62',
+
+    /**
+     * `<CSI>` `38;5;63`
+     * 
+     * @desc Foreground #5f5fff
+     */
+    x5f5fff = '38;5;63',
+
+    /**
+     * `<CSI>` `38;5;64`
+     * 
+     * @desc Foreground #5f8700
+     */
+    x5f8700 = '38;5;64',
+
+    /**
+     * `<CSI>` `38;5;65`
+     * 
+     * @desc Foreground #5f875f
+     */
+    x5f875f = '38;5;65',
+
+    /**
+     * `<CSI>` `38;5;66`
+     * 
+     * @desc Foreground #5f8787
+     */
+    x5f8787 = '38;5;66',
+
+    /**
+     * `<CSI>` `38;5;67`
+     * 
+     * @desc Foreground #5f87af
+     */
+    x5f87af = '38;5;67',
+
+    /**
+     * `<CSI>` `38;5;68`
+     * 
+     * @desc Foreground #5f87d7
+     */
+    x5f87d7 = '38;5;68',
+
+    /**
+     * `<CSI>` `38;5;69`
+     * 
+     * @desc Foreground #5f87ff
+     */
+    x5f87ff = '38;5;69',
+
+    /**
+     * `<CSI>` `38;5;70`
+     * 
+     * @desc Foreground #5faf00
+     */
+    x5faf00 = '38;5;70',
+
+    /**
+     * `<CSI>` `38;5;71`
+     * 
+     * @desc Foreground #5faf5f
+     */
+    x5faf5f = '38;5;71',
+
+    /**
+     * `<CSI>` `38;5;72`
+     * 
+     * @desc Foreground #5faf87
+     */
+    x5faf87 = '38;5;72',
+
+    /**
+     * `<CSI>` `38;5;73`
+     * 
+     * @desc Foreground #5fafaf
+     */
+    x5fafaf = '38;5;73',
+
+    /**
+     * `<CSI>` `38;5;74`
+     * 
+     * @desc Foreground #5fafd7
+     */
+    x5fafd7 = '38;5;74',
+
+    /**
+     * `<CSI>` `38;5;75`
+     * 
+     * @desc Foreground #5fafff
+     */
+    x5fafff = '38;5;75',
+
+    /**
+     * `<CSI>` `38;5;76`
+     * 
+     * @desc Foreground #5fd700
+     */
+    x5fd700 = '38;5;76',
+
+    /**
+     * `<CSI>` `38;5;77`
+     * 
+     * @desc Foreground #5fd75f
+     */
+    x5fd75f = '38;5;77',
+
+    /**
+     * `<CSI>` `38;5;78`
+     * 
+     * @desc Foreground #5fd787
+     */
+    x5fd787 = '38;5;78',
+
+    /**
+     * `<CSI>` `38;5;79`
+     * 
+     * @desc Foreground #5fd7af
+     */
+    x5fd7af = '38;5;79',
+
+    /**
+     * `<CSI>` `38;5;80`
+     * 
+     * @desc Foreground #5fd7d7
+     */
+    x5fd7d7 = '38;5;80',
+
+    /**
+     * `<CSI>` `38;5;81`
+     * 
+     * @desc Foreground #5fd7ff
+     */
+    x5fd7ff = '38;5;81',
+
+    /**
+     * `<CSI>` `38;5;82`
+     * 
+     * @desc Foreground #5fff00
+     */
+    x5fff00 = '38;5;82',
+
+    /**
+     * `<CSI>` `38;5;83`
+     * 
+     * @desc Foreground #5fff5f
+     */
+    x5fff5f = '38;5;83',
+
+    /**
+     * `<CSI>` `38;5;84`
+     * 
+     * @desc Foreground #5fff87
+     */
+    x5fff87 = '38;5;84',
+
+    /**
+     * `<CSI>` `38;5;85`
+     * 
+     * @desc Foreground #5fffaf
+     */
+    x5fffaf = '38;5;85',
+
+    /**
+     * `<CSI>` `38;5;86`
+     * 
+     * @desc Foreground #5fffd7
+     */
+    x5fffd7 = '38;5;86',
+
+    /**
+     * `<CSI>` `38;5;87`
+     * 
+     * @desc Foreground #5fffff
+     */
+    x5fffff = '38;5;87',
+
+    /**
+     * `<CSI>` `38;5;88`
+     * 
+     * @desc Foreground #870000
+     */
+    x870000 = '38;5;88',
+
+    /**
+     * `<CSI>` `38;5;89`
+     * 
+     * @desc Foreground #87005f
+     */
+    x87005f = '38;5;89',
+
+    /**
+     * `<CSI>` `38;5;90`
+     * 
+     * @desc Foreground #870087
+     */
+    x870087 = '38;5;90',
+
+    /**
+     * `<CSI>` `38;5;91`
+     * 
+     * @desc Foreground #8700af
+     */
+    x8700af = '38;5;91',
+
+    /**
+     * `<CSI>` `38;5;92`
+     * 
+     * @desc Foreground #8700d7
+     */
+    x8700d7 = '38;5;92',
+
+    /**
+     * `<CSI>` `38;5;93`
+     * 
+     * @desc Foreground #8700ff
+     */
+    x8700ff = '38;5;93',
+
+    /**
+     * `<CSI>` `38;5;94`
+     * 
+     * @desc Foreground #875f00
+     */
+    x875f00 = '38;5;94',
+
+    /**
+     * `<CSI>` `38;5;95`
+     * 
+     * @desc Foreground #875f5f
+     */
+    x875f5f = '38;5;95',
+
+    /**
+     * `<CSI>` `38;5;96`
+     * 
+     * @desc Foreground #875f87
+     */
+    x875f87 = '38;5;96',
+
+    /**
+     * `<CSI>` `38;5;97`
+     * 
+     * @desc Foreground #875faf
+     */
+    x875faf = '38;5;97',
+
+    /**
+     * `<CSI>` `38;5;98`
+     * 
+     * @desc Foreground #875fd7
+     */
+    x875fd7 = '38;5;98',
+
+    /**
+     * `<CSI>` `38;5;99`
+     * 
+     * @desc Foreground #875fff
+     */
+    x875fff = '38;5;99',
+
+    /**
+     * `<CSI>` `38;5;100`
+     * 
+     * @desc Foreground #878700
+     */
+    x878700 = '38;5;100',
+
+    /**
+     * `<CSI>` `38;5;101`
+     * 
+     * @desc Foreground #87875f
+     */
+    x87875f = '38;5;101',
+
+    /**
+     * `<CSI>` `38;5;102`
+     * 
+     * @desc Foreground #878787
+     */
+    x878787 = '38;5;102',
+
+    /**
+     * `<CSI>` `38;5;103`
+     * 
+     * @desc Foreground #8787af
+     */
+    x8787af = '38;5;103',
+
+    /**
+     * `<CSI>` `38;5;104`
+     * 
+     * @desc Foreground #8787d7
+     */
+    x8787d7 = '38;5;104',
+
+    /**
+     * `<CSI>` `38;5;105`
+     * 
+     * @desc Foreground #8787ff
+     */
+    x8787ff = '38;5;105',
+
+    /**
+     * `<CSI>` `38;5;106`
+     * 
+     * @desc Foreground #87af00
+     */
+    x87af00 = '38;5;106',
+
+    /**
+     * `<CSI>` `38;5;107`
+     * 
+     * @desc Foreground #87af5f
+     */
+    x87af5f = '38;5;107',
+
+    /**
+     * `<CSI>` `38;5;108`
+     * 
+     * @desc Foreground #87af87
+     */
+    x87af87 = '38;5;108',
+
+    /**
+     * `<CSI>` `38;5;109`
+     * 
+     * @desc Foreground #87afaf
+     */
+    x87afaf = '38;5;109',
+
+    /**
+     * `<CSI>` `38;5;110`
+     * 
+     * @desc Foreground #87afd7
+     */
+    x87afd7 = '38;5;110',
+
+    /**
+     * `<CSI>` `38;5;111`
+     * 
+     * @desc Foreground #87afff
+     */
+    x87afff = '38;5;111',
+
+    /**
+     * `<CSI>` `38;5;112`
+     * 
+     * @desc Foreground #87d700
+     */
+    x87d700 = '38;5;112',
+
+    /**
+     * `<CSI>` `38;5;113`
+     * 
+     * @desc Foreground #87d75f
+     */
+    x87d75f = '38;5;113',
+
+    /**
+     * `<CSI>` `38;5;114`
+     * 
+     * @desc Foreground #87d787
+     */
+    x87d787 = '38;5;114',
+
+    /**
+     * `<CSI>` `38;5;115`
+     * 
+     * @desc Foreground #87d7af
+     */
+    x87d7af = '38;5;115',
+
+    /**
+     * `<CSI>` `38;5;116`
+     * 
+     * @desc Foreground #87d7d7
+     */
+    x87d7d7 = '38;5;116',
+
+    /**
+     * `<CSI>` `38;5;117`
+     * 
+     * @desc Foreground #87d7ff
+     */
+    x87d7ff = '38;5;117',
+
+    /**
+     * `<CSI>` `38;5;118`
+     * 
+     * @desc Foreground #87ff00
+     */
+    x87ff00 = '38;5;118',
+
+    /**
+     * `<CSI>` `38;5;119`
+     * 
+     * @desc Foreground #87ff5f
+     */
+    x87ff5f = '38;5;119',
+
+    /**
+     * `<CSI>` `38;5;120`
+     * 
+     * @desc Foreground #87ff87
+     */
+    x87ff87 = '38;5;120',
+
+    /**
+     * `<CSI>` `38;5;121`
+     * 
+     * @desc Foreground #87ffaf
+     */
+    x87ffaf = '38;5;121',
+
+    /**
+     * `<CSI>` `38;5;122`
+     * 
+     * @desc Foreground #87ffd7
+     */
+    x87ffd7 = '38;5;122',
+
+    /**
+     * `<CSI>` `38;5;123`
+     * 
+     * @desc Foreground #87ffff
+     */
+    x87ffff = '38;5;123',
+
+    /**
+     * `<CSI>` `38;5;124`
+     * 
+     * @desc Foreground #af0000
+     */
+    xaf0000 = '38;5;124',
+
+    /**
+     * `<CSI>` `38;5;125`
+     * 
+     * @desc Foreground #af005f
+     */
+    xaf005f = '38;5;125',
+
+    /**
+     * `<CSI>` `38;5;126`
+     * 
+     * @desc Foreground #af0087
+     */
+    xaf0087 = '38;5;126',
+
+    /**
+     * `<CSI>` `38;5;127`
+     * 
+     * @desc Foreground #af00af
+     */
+    xaf00af = '38;5;127',
+
+    /**
+     * `<CSI>` `38;5;128`
+     * 
+     * @desc Foreground #af00d7
+     */
+    xaf00d7 = '38;5;128',
+
+    /**
+     * `<CSI>` `38;5;129`
+     * 
+     * @desc Foreground #af00ff
+     */
+    xaf00ff = '38;5;129',
+
+    /**
+     * `<CSI>` `38;5;130`
+     * 
+     * @desc Foreground #af5f00
+     */
+    xaf5f00 = '38;5;130',
+
+    /**
+     * `<CSI>` `38;5;131`
+     * 
+     * @desc Foreground #af5f5f
+     */
+    xaf5f5f = '38;5;131',
+
+    /**
+     * `<CSI>` `38;5;132`
+     * 
+     * @desc Foreground #af5f87
+     */
+    xaf5f87 = '38;5;132',
+
+    /**
+     * `<CSI>` `38;5;133`
+     * 
+     * @desc Foreground #af5faf
+     */
+    xaf5faf = '38;5;133',
+
+    /**
+     * `<CSI>` `38;5;134`
+     * 
+     * @desc Foreground #af5fd7
+     */
+    xaf5fd7 = '38;5;134',
+
+    /**
+     * `<CSI>` `38;5;135`
+     * 
+     * @desc Foreground #af5fff
+     */
+    xaf5fff = '38;5;135',
+
+    /**
+     * `<CSI>` `38;5;136`
+     * 
+     * @desc Foreground #af8700
+     */
+    xaf8700 = '38;5;136',
+
+    /**
+     * `<CSI>` `38;5;137`
+     * 
+     * @desc Foreground #af875f
+     */
+    xaf875f = '38;5;137',
+
+    /**
+     * `<CSI>` `38;5;138`
+     * 
+     * @desc Foreground #af8787
+     */
+    xaf8787 = '38;5;138',
+
+    /**
+     * `<CSI>` `38;5;139`
+     * 
+     * @desc Foreground #af87af
+     */
+    xaf87af = '38;5;139',
+
+    /**
+     * `<CSI>` `38;5;140`
+     * 
+     * @desc Foreground #af87d7
+     */
+    xaf87d7 = '38;5;140',
+
+    /**
+     * `<CSI>` `38;5;141`
+     * 
+     * @desc Foreground #af87ff
+     */
+    xaf87ff = '38;5;141',
+
+    /**
+     * `<CSI>` `38;5;142`
+     * 
+     * @desc Foreground #afaf00
+     */
+    xafaf00 = '38;5;142',
+
+    /**
+     * `<CSI>` `38;5;143`
+     * 
+     * @desc Foreground #afaf5f
+     */
+    xafaf5f = '38;5;143',
+
+    /**
+     * `<CSI>` `38;5;144`
+     * 
+     * @desc Foreground #afaf87
+     */
+    xafaf87 = '38;5;144',
+
+    /**
+     * `<CSI>` `38;5;145`
+     * 
+     * @desc Foreground #afafaf
+     */
+    xafafaf = '38;5;145',
+
+    /**
+     * `<CSI>` `38;5;146`
+     * 
+     * @desc Foreground #afafd7
+     */
+    xafafd7 = '38;5;146',
+
+    /**
+     * `<CSI>` `38;5;147`
+     * 
+     * @desc Foreground #afafff
+     */
+    xafafff = '38;5;147',
+
+    /**
+     * `<CSI>` `38;5;148`
+     * 
+     * @desc Foreground #afd700
+     */
+    xafd700 = '38;5;148',
+
+    /**
+     * `<CSI>` `38;5;149`
+     * 
+     * @desc Foreground #afd75f
+     */
+    xafd75f = '38;5;149',
+
+    /**
+     * `<CSI>` `38;5;150`
+     * 
+     * @desc Foreground #afd787
+     */
+    xafd787 = '38;5;150',
+
+    /**
+     * `<CSI>` `38;5;151`
+     * 
+     * @desc Foreground #afd7af
+     */
+    xafd7af = '38;5;151',
+
+    /**
+     * `<CSI>` `38;5;152`
+     * 
+     * @desc Foreground #afd7d7
+     */
+    xafd7d7 = '38;5;152',
+
+    /**
+     * `<CSI>` `38;5;153`
+     * 
+     * @desc Foreground #afd7ff
+     */
+    xafd7ff = '38;5;153',
+
+    /**
+     * `<CSI>` `38;5;154`
+     * 
+     * @desc Foreground #afff00
+     */
+    xafff00 = '38;5;154',
+
+    /**
+     * `<CSI>` `38;5;155`
+     * 
+     * @desc Foreground #afff5f
+     */
+    xafff5f = '38;5;155',
+
+    /**
+     * `<CSI>` `38;5;156`
+     * 
+     * @desc Foreground #afff87
+     */
+    xafff87 = '38;5;156',
+
+    /**
+     * `<CSI>` `38;5;157`
+     * 
+     * @desc Foreground #afffaf
+     */
+    xafffaf = '38;5;157',
+
+    /**
+     * `<CSI>` `38;5;158`
+     * 
+     * @desc Foreground #afffd7
+     */
+    xafffd7 = '38;5;158',
+
+    /**
+     * `<CSI>` `38;5;159`
+     * 
+     * @desc Foreground #afffff
+     */
+    xafffff = '38;5;159',
+
+    /**
+     * `<CSI>` `38;5;160`
+     * 
+     * @desc Foreground #d70000
+     */
+    xd70000 = '38;5;160',
+
+    /**
+     * `<CSI>` `38;5;161`
+     * 
+     * @desc Foreground #d7005f
+     */
+    xd7005f = '38;5;161',
+
+    /**
+     * `<CSI>` `38;5;162`
+     * 
+     * @desc Foreground #d70087
+     */
+    xd70087 = '38;5;162',
+
+    /**
+     * `<CSI>` `38;5;163`
+     * 
+     * @desc Foreground #d700af
+     */
+    xd700af = '38;5;163',
+
+    /**
+     * `<CSI>` `38;5;164`
+     * 
+     * @desc Foreground #d700d7
+     */
+    xd700d7 = '38;5;164',
+
+    /**
+     * `<CSI>` `38;5;165`
+     * 
+     * @desc Foreground #d700ff
+     */
+    xd700ff = '38;5;165',
+
+    /**
+     * `<CSI>` `38;5;166`
+     * 
+     * @desc Foreground #d75f00
+     */
+    xd75f00 = '38;5;166',
+
+    /**
+     * `<CSI>` `38;5;167`
+     * 
+     * @desc Foreground #d75f5f
+     */
+    xd75f5f = '38;5;167',
+
+    /**
+     * `<CSI>` `38;5;168`
+     * 
+     * @desc Foreground #d75f87
+     */
+    xd75f87 = '38;5;168',
+
+    /**
+     * `<CSI>` `38;5;169`
+     * 
+     * @desc Foreground #d75faf
+     */
+    xd75faf = '38;5;169',
+
+    /**
+     * `<CSI>` `38;5;170`
+     * 
+     * @desc Foreground #d75fd7
+     */
+    xd75fd7 = '38;5;170',
+
+    /**
+     * `<CSI>` `38;5;171`
+     * 
+     * @desc Foreground #d75fff
+     */
+    xd75fff = '38;5;171',
+
+    /**
+     * `<CSI>` `38;5;172`
+     * 
+     * @desc Foreground #d78700
+     */
+    xd78700 = '38;5;172',
+
+    /**
+     * `<CSI>` `38;5;173`
+     * 
+     * @desc Foreground #d7875f
+     */
+    xd7875f = '38;5;173',
+
+    /**
+     * `<CSI>` `38;5;174`
+     * 
+     * @desc Foreground #d78787
+     */
+    xd78787 = '38;5;174',
+
+    /**
+     * `<CSI>` `38;5;175`
+     * 
+     * @desc Foreground #d787af
+     */
+    xd787af = '38;5;175',
+
+    /**
+     * `<CSI>` `38;5;176`
+     * 
+     * @desc Foreground #d787d7
+     */
+    xd787d7 = '38;5;176',
+
+    /**
+     * `<CSI>` `38;5;177`
+     * 
+     * @desc Foreground #d787ff
+     */
+    xd787ff = '38;5;177',
+
+    /**
+     * `<CSI>` `38;5;178`
+     * 
+     * @desc Foreground #d7af00
+     */
+    xd7af00 = '38;5;178',
+
+    /**
+     * `<CSI>` `38;5;179`
+     * 
+     * @desc Foreground #d7af5f
+     */
+    xd7af5f = '38;5;179',
+
+    /**
+     * `<CSI>` `38;5;180`
+     * 
+     * @desc Foreground #d7af87
+     */
+    xd7af87 = '38;5;180',
+
+    /**
+     * `<CSI>` `38;5;181`
+     * 
+     * @desc Foreground #d7afaf
+     */
+    xd7afaf = '38;5;181',
+
+    /**
+     * `<CSI>` `38;5;182`
+     * 
+     * @desc Foreground #d7afd7
+     */
+    xd7afd7 = '38;5;182',
+
+    /**
+     * `<CSI>` `38;5;183`
+     * 
+     * @desc Foreground #d7afff
+     */
+    xd7afff = '38;5;183',
+
+    /**
+     * `<CSI>` `38;5;184`
+     * 
+     * @desc Foreground #d7d700
+     */
+    xd7d700 = '38;5;184',
+
+    /**
+     * `<CSI>` `38;5;185`
+     * 
+     * @desc Foreground #d7d75f
+     */
+    xd7d75f = '38;5;185',
+
+    /**
+     * `<CSI>` `38;5;186`
+     * 
+     * @desc Foreground #d7d787
+     */
+    xd7d787 = '38;5;186',
+
+    /**
+     * `<CSI>` `38;5;187`
+     * 
+     * @desc Foreground #d7d7af
+     */
+    xd7d7af = '38;5;187',
+
+    /**
+     * `<CSI>` `38;5;188`
+     * 
+     * @desc Foreground #d7d7d7
+     */
+    xd7d7d7 = '38;5;188',
+
+    /**
+     * `<CSI>` `38;5;189`
+     * 
+     * @desc Foreground #d7d7ff
+     */
+    xd7d7ff = '38;5;189',
+
+    /**
+     * `<CSI>` `38;5;190`
+     * 
+     * @desc Foreground #d7ff00
+     */
+    xd7ff00 = '38;5;190',
+
+    /**
+     * `<CSI>` `38;5;191`
+     * 
+     * @desc Foreground #d7ff5f
+     */
+    xd7ff5f = '38;5;191',
+
+    /**
+     * `<CSI>` `38;5;192`
+     * 
+     * @desc Foreground #d7ff87
+     */
+    xd7ff87 = '38;5;192',
+
+    /**
+     * `<CSI>` `38;5;193`
+     * 
+     * @desc Foreground #d7ffaf
+     */
+    xd7ffaf = '38;5;193',
+
+    /**
+     * `<CSI>` `38;5;194`
+     * 
+     * @desc Foreground #d7ffd7
+     */
+    xd7ffd7 = '38;5;194',
+
+    /**
+     * `<CSI>` `38;5;195`
+     * 
+     * @desc Foreground #d7ffff
+     */
+    xd7ffff = '38;5;195',
+
+    /**
+     * `<CSI>` `38;5;196`
+     * 
+     * @desc Foreground #ff0000
+     */
+    xff0000 = '38;5;196',
+
+    /**
+     * `<CSI>` `38;5;197`
+     * 
+     * @desc Foreground #ff005f
+     */
+    xff005f = '38;5;197',
+
+    /**
+     * `<CSI>` `38;5;198`
+     * 
+     * @desc Foreground #ff0087
+     */
+    xff0087 = '38;5;198',
+
+    /**
+     * `<CSI>` `38;5;199`
+     * 
+     * @desc Foreground #ff00af
+     */
+    xff00af = '38;5;199',
+
+    /**
+     * `<CSI>` `38;5;200`
+     * 
+     * @desc Foreground #ff00d7
+     */
+    xff00d7 = '38;5;200',
+
+    /**
+     * `<CSI>` `38;5;201`
+     * 
+     * @desc Foreground #ff00ff
+     */
+    xff00ff = '38;5;201',
+
+    /**
+     * `<CSI>` `38;5;202`
+     * 
+     * @desc Foreground #ff5f00
+     */
+    xff5f00 = '38;5;202',
+
+    /**
+     * `<CSI>` `38;5;203`
+     * 
+     * @desc Foreground #ff5f5f
+     */
+    xff5f5f = '38;5;203',
+
+    /**
+     * `<CSI>` `38;5;204`
+     * 
+     * @desc Foreground #ff5f87
+     */
+    xff5f87 = '38;5;204',
+
+    /**
+     * `<CSI>` `38;5;205`
+     * 
+     * @desc Foreground #ff5faf
+     */
+    xff5faf = '38;5;205',
+
+    /**
+     * `<CSI>` `38;5;206`
+     * 
+     * @desc Foreground #ff5fd7
+     */
+    xff5fd7 = '38;5;206',
+
+    /**
+     * `<CSI>` `38;5;207`
+     * 
+     * @desc Foreground #ff5fff
+     */
+    xff5fff = '38;5;207',
+
+    /**
+     * `<CSI>` `38;5;208`
+     * 
+     * @desc Foreground #ff8700
+     */
+    xff8700 = '38;5;208',
+
+    /**
+     * `<CSI>` `38;5;209`
+     * 
+     * @desc Foreground #ff875f
+     */
+    xff875f = '38;5;209',
+
+    /**
+     * `<CSI>` `38;5;210`
+     * 
+     * @desc Foreground #ff8787
+     */
+    xff8787 = '38;5;210',
+
+    /**
+     * `<CSI>` `38;5;211`
+     * 
+     * @desc Foreground #ff87af
+     */
+    xff87af = '38;5;211',
+
+    /**
+     * `<CSI>` `38;5;212`
+     * 
+     * @desc Foreground #ff87d7
+     */
+    xff87d7 = '38;5;212',
+
+    /**
+     * `<CSI>` `38;5;213`
+     * 
+     * @desc Foreground #ff87ff
+     */
+    xff87ff = '38;5;213',
+
+    /**
+     * `<CSI>` `38;5;214`
+     * 
+     * @desc Foreground #ffaf00
+     */
+    xffaf00 = '38;5;214',
+
+    /**
+     * `<CSI>` `38;5;215`
+     * 
+     * @desc Foreground #ffaf5f
+     */
+    xffaf5f = '38;5;215',
+
+    /**
+     * `<CSI>` `38;5;216`
+     * 
+     * @desc Foreground #ffaf87
+     */
+    xffaf87 = '38;5;216',
+
+    /**
+     * `<CSI>` `38;5;217`
+     * 
+     * @desc Foreground #ffafaf
+     */
+    xffafaf = '38;5;217',
+
+    /**
+     * `<CSI>` `38;5;218`
+     * 
+     * @desc Foreground #ffafd7
+     */
+    xffafd7 = '38;5;218',
+
+    /**
+     * `<CSI>` `38;5;219`
+     * 
+     * @desc Foreground #ffafff
+     */
+    xffafff = '38;5;219',
+
+    /**
+     * `<CSI>` `38;5;220`
+     * 
+     * @desc Foreground #ffd700
+     */
+    xffd700 = '38;5;220',
+
+    /**
+     * `<CSI>` `38;5;221`
+     * 
+     * @desc Foreground #ffd75f
+     */
+    xffd75f = '38;5;221',
+
+    /**
+     * `<CSI>` `38;5;222`
+     * 
+     * @desc Foreground #ffd787
+     */
+    xffd787 = '38;5;222',
+
+    /**
+     * `<CSI>` `38;5;223`
+     * 
+     * @desc Foreground #ffd7af
+     */
+    xffd7af = '38;5;223',
+
+    /**
+     * `<CSI>` `38;5;224`
+     * 
+     * @desc Foreground #ffd7d7
+     */
+    xffd7d7 = '38;5;224',
+
+    /**
+     * `<CSI>` `38;5;225`
+     * 
+     * @desc Foreground #ffd7ff
+     */
+    xffd7ff = '38;5;225',
+
+    /**
+     * `<CSI>` `38;5;226`
+     * 
+     * @desc Foreground #ffff00
+     */
+    xffff00 = '38;5;226',
+
+    /**
+     * `<CSI>` `38;5;227`
+     * 
+     * @desc Foreground #ffff5f
+     */
+    xffff5f = '38;5;227',
+
+    /**
+     * `<CSI>` `38;5;228`
+     * 
+     * @desc Foreground #ffff87
+     */
+    xffff87 = '38;5;228',
+
+    /**
+     * `<CSI>` `38;5;229`
+     * 
+     * @desc Foreground #ffffaf
+     */
+    xffffaf = '38;5;229',
+
+    /**
+     * `<CSI>` `38;5;230`
+     * 
+     * @desc Foreground #ffffd7
+     */
+    xffffd7 = '38;5;230',
+
+    /**
+     * `<CSI>` `38;5;231`
+     * 
+     * @desc Foreground #ffffff
+     */
+    xffffff = '38;5;231'
+}
+
+
