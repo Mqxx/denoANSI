@@ -46,5 +46,11 @@ export const cursor = {
     },
     restorePosition: function() : void {
 
+    },
+    show: function() : void {
+        
+    },
+    hide: function() : void {
+        
     }
 }
