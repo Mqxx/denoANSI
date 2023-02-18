@@ -14,6 +14,13 @@ export enum brightBG {
     RESET = '0',
 
     /**
+     * `<CSI>` `39`
+     * 
+     * @desc Default background
+     */
+    DEFAULT = '39',
+    
+    /**
      * `<CSI>` `100`
      * 
      * @desc Bright black background
@@ -67,12 +74,5 @@ export enum brightBG {
      * 
      * @desc Bright white background
      */
-    BRIGHT_WHITG = '107',
-
-    /**
-     * `<CSI>` `39`
-     * 
-     * @desc Default background
-     */
-    DEFAULT = '39',
+    BRIGHT_WHITG = '107'
 }
