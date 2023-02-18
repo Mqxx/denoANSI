@@ -1,6 +1,4 @@
 /**
- * ANSI sequences
- * 
  * @desc ANSI control sequences
  * @readonly
  * @enum {string}

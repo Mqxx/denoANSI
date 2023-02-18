@@ -1,11 +1,15 @@
 /**
- * ANSI formats
- * 
  * @desc ANSI text format codes
  * @readonly
  * @enum {string}
  */
-export enum lineIdeogram {
+export enum lineIdeograms {
+    /**
+     * @desc Reset ideogram format
+     * @default formats.RESET = '65'
+     */
+    RESET = '65',
+
     /**
      * @desc Line ideogram right side format
      * @default formats.RIGHT_SIDE = '60'
@@ -34,11 +38,5 @@ export enum lineIdeogram {
      * @desc Line ideogram stress marking format
      * @default formats.STRESS_MARKING = '64'
      */
-    STRESS_MARKING = '64',
-
-    /**
-     * @desc Reset ideogram format
-     * @default formats.RESET = '65'
-     */
-    RESET = '65'
+    STRESS_MARKING = '64'
 }
