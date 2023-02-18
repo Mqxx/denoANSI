@@ -98,6 +98,20 @@ export enum ends {
     CURSOR_GET_POSITION = 'n',
 
     /**
+     * `s`
+     * 
+     * @desc Cursor save position ending sequence
+     */
+    CURSOR_SAVE_POSITION = 's',
+
+    /**
+     * `u`
+     * 
+     * @desc Cursor restore position ending sequence
+     */
+    CURSOR_RESTORE_POSITION = 'u',
+
+    /**
      * `m`
      * 
      * @desc Color ending sequence
