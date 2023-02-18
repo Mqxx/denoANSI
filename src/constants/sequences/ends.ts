@@ -98,6 +98,13 @@ export enum ends {
     COLOR = 'm',
 
     /**
+     * `m`
+     * 
+     * @desc Format ending sequence
+     */
+    FORMAT = 'm',
+
+    /**
      * `n`
      * 
      * @desc Cursor get position ending sequence
@@ -118,11 +125,18 @@ export enum ends {
      */
     CURSOR_RESTORE_POSITION = 'u',
 
+    /**
+     * `u`
+     * 
+     * @desc Cursor restore position ending sequence
+     */
+    CURSOR_SHOW = 'h',
 
     /**
-     * `m`
+     * `u`
      * 
-     * @desc Format ending sequence
+     * @desc Cursor restore position ending sequence
      */
-    FORMAT = 'm'
+    CURSOR_HIDE = 'l',
+
 }
