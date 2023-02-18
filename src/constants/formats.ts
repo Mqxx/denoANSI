@@ -327,6 +327,5 @@ export enum formats {
      * 
      * @desc Reset ideogram format
      */
-    LINE_IDEOGRAM_RESET = '65',
-    
+    LINE_IDEOGRAM_RESET = '65'
 }

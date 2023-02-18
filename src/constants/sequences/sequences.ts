@@ -39,19 +39,5 @@ export enum sequences {
      * 
      * @desc Separator
      */
-    SEP = ';',
-
-    /**
-     * `m`
-     * 
-     * @desc Color end
-     */
-    COLOR_END = 'm',
-
-    /**
-     * `m`
-     * 
-     * @desc Format end
-     */
-    FORMAT_END = 'm'
+    SEP = ';'
 }

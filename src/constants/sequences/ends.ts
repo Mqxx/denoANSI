@@ -137,6 +137,5 @@ export enum ends {
      * 
      * @desc Cursor restore position ending sequence
      */
-    CURSOR_HIDE = 'l',
-
+    CURSOR_HIDE = 'l'
 }

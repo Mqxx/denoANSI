@@ -5,72 +5,72 @@
  * @readonly
  * @enum {string}
  */
-export enum normalFG {
+export enum normalForeground {
     /**
-     * `<CSI>` `0`
+     * `0`
      * 
      * @desc Reset foreground
      */
     RESET = '0',
 
     /**
-     * `<CSI>` `30`
+     * `30`
      * 
      * @desc Black foreground
      */
     BLACK = '30',
 
     /**
-     * `<CSI>` `31`
+     * `31`
      * 
      * @desc Red foreground
      */
     RED = '31',
 
     /**
-     * `<CSI>` `32`
+     * `32`
      * 
      * @desc Green foreground
      */
     GREEN = '32',
 
     /**
-     * `<CSI>` `33`
+     * `33`
      * 
      * @desc Yellow foreground
      */
     YELLOW = '33',
 
     /**
-     * `<CSI>` `34`
+     * `34`
      * 
      * @desc Blue foreground
      */
     BLUE = '34',
 
     /**
-     * `<CSI>` `35`
+     * `35`
      * 
      * @desc Magenta foreground
      */
     MAGENTA = '35',
 
     /**
-     * `<CSI>` `36`
+     * `36`
      * 
      * @desc Cyan foreground
      */
     CYAN = '36',
 
     /**
-     * `<CSI>` `37`
+     * `37`
      * 
      * @desc White foreground
      */
     WHITE = '37',
 
     /**
-     * `<CSI>` `39`
+     * `39`
      * 
      * @desc Deafult foreground
      */
