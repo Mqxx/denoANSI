@@ -7,37 +7,32 @@
  */
 export enum controls {
     /**
-     * `\x1B`
-     * 
      * @desc Sequence start (Escape)
+     * @default controls.ESC = '\x1B'
      */
     ESC = '\x1B',
 
     /**
-     * `\x1B[`
-     * 
      * @desc Control Sequence Introducer
+     * @default controls.CSI = '\x1B['
      */
     CSI = '\x1B[',
 
     /**
-     * `\x1BP`
-     * 
      * @desc Device Control String
+     * @default controls.DCS = '\x1BP'
      */
     DCS = '\x1BP',
 
     /**
-     * `\x1B]`
-     * 
      * @desc Operating System Command
+     * @default controls.OSC = '\x1B]'
      */
     OSC = '\x1B]',
 
     /**
-     * `;`
-     * 
      * @desc Separator
+     * @default controls.SEP = ';'
      */
     SEP = ';'
 }

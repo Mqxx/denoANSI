@@ -7,325 +7,278 @@
  */
 export enum formats {
     /**
-     * `<CSI>` `0`
-     * 
      * @desc Reset all formats
+     * @default formats.RESET = '0'
      */
     RESET = '0',
 
     /**
-     * `<CSI>` `1`
-     * 
      * @desc Bold format
+     * @default formats.BOLD = '1'
      */
     BOLD = '1',
 
     /**
-     * `<CSI>` `2`
-     * 
      * @desc Dim format
+     * @default formats.DIM = '2'
      */
     DIM = '2',
     
     /**
-     * `<CSI>` `3`
-     * 
      * @desc Italic format
+     * @default formats.ITALIC = '3'
      */
     ITALIC = '3',
 
     /**
-     * `<CSI>` `4`
-     * 
      * @desc Underline format
+     * @default formats.UNDERLINE = '4'
      */
     UNDERLINE = '4',
 
     /**
-     * `<CSI>` `5`
-     * 
      * @desc Blinking format
+     * @default formats.BLINKING = '5'
      */
     BLINKING = '5',
 
     /**
-     * `<CSI>` `6`
-     * 
      * @desc Blinking rapid format
+     * @default formats.BLINKING_RAPID = '6'
      */
     BLINKING_RAPID = '6',
 
     /**
-     * `<CSI>` `7`
-     * 
      * @desc Inverse format
+     * @default formats.INVERSE = '7'
      */
     INVERSE = '7',
 
     /**
-     * `<CSI>` `8`
-     * 
      * @desc Hidden format
+     * @default formats.HIDDEN = '8'
      */
     HIDDEN = '8',
 
     /**
-     * `<CSI>` `8`
-     * 
      * @desc Strikethrough format
+     * @default formats.STRIKETHROUGH = '9'
      */
     STRIKETHROUGH = '9',
 
     /**
-     * `<CSI>` `10`
-     * 
      * @desc Font default format
+     * @default formats.FONT_DEFAULT = '10'
      */
     FONT_DEFAULT = '10',
 
     /**
-     * `<CSI>` `11`
-     * 
      * @desc Font alternative 1 format
+     * @default formats.FONT_ALTERNATIVE_1 = '11'
      */
     FONT_ALTERNATIVE_1 = '11',
     
     /**
-     * `<CSI>` `12`
-     * 
      * @desc Font alternative 2 format
+     * @default formats.FONT_ALTERNATIVE_2 = '12'
      */
     FONT_ALTERNATIVE_2 = '12',
 
     /**
-     * `<CSI>` `13`
-     * 
      * @desc Font alternative 3 format
+     * @default formats.FONT_ALTERNATIVE_3 = '13'
      */
     FONT_ALTERNATIVE_3 = '13',
 
     /**
-     * `<CSI>` `14`
-     * 
      * @desc Font alternative 4 format
+     * @default formats.FONT_ALTERNATIVE_4 = '14'
      */
     FONT_ALTERNATIVE_4 = '14',
 
     /**
-     * `<CSI>` `15`
-     * 
      * @desc Font alternative 5 format
+     * @default formats.FONT_ALTERNATIVE_5 = '15'
      */
     FONT_ALTERNATIVE_5 = '15',
 
     /**
-     * `<CSI>` `16`
-     * 
      * @desc Font alternative 6 format
+     * @default formats.FONT_ALTERNATIVE_6 = '16'
      */
     FONT_ALTERNATIVE_6 = '16',
 
     /**
-     * `<CSI>` `17`
-     * 
      * @desc Font alternative 7 format
+     * @default formats.FONT_ALTERNATIVE_7 = '17'
      */
     FONT_ALTERNATIVE_7 = '17',
 
     /**
-     * `<CSI>` `18`
-     * 
      * @desc Font alternative 8 format
+     * @default formats.FONT_ALTERNATIVE_8 = '18'
      */
     FONT_ALTERNATIVE_8 = '18',
 
     /**
-     * `<CSI>` `19`
-     * 
      * @desc Font alternative 9 format
+     * @default formats.FONT_ALTERNATIVE_9 = '19'
      */
     FONT_ALTERNATIVE_9 = '19',
 
     /**
-     * `<CSI>` `20`
-     * 
      * @desc Fractur format
+     * @default formats.FRACTUR = '20'
      */
     FRACTUR = '20',
 
     /**
-     * `<CSI>` `21`
-     * 
      * @desc Underline double format
+     * @default formats.UNDERLINE_DOUBLE = '21'
      */
     UNDERLINE_DOUBLE = '21',
 
     /**
-     * `<CSI>` `22`
-     * 
      * @desc Reset bold format
+     * @default formats.BOLD_RESET = '22'
      */
     BOLD_RESET = '22',
 
     /**
-     * `<CSI>` `22`
-     * 
      * @desc Reset dim format
+     * @default formats.DIM_RESET = '22'
      */
-
     DIM_RESET = '22',
 
     /**
-     * `<CSI>` `23`
-     * 
      * @desc Reset italic format
+     * @default formats.ITALIC_RESET = '23'
      */
     ITALIC_RESET = '23',
 
     /**
-     * `<CSI>` `24`
-     * 
      * @desc Reset underline format
+     * @default formats.UNDERLINE_RESET = '24'
      */
     UNDERLINE_RESET = '24',
 
     /**
-     * `<CSI>` `25`
-     * 
      * @desc Reset blinking format
+     * @default formats.BLINKING_RESET = '25'
      */
     BLINKING_RESET = '25',
 
     /**
-     * `<CSI>` `26`
-     * 
      * @desc Proportional spacing format
+     * @default formats.PROPORTINAL_SPACING = '26'
      */
     PROPORTINAL_SPACING = '26',
     
     /**
-     * `<CSI>` `27`
-     * 
      * @desc Reset inverse format
+     * @default formats.INVERSE_RESET = '27'
      */
     INVERSE_RESET = '27',
     
     /**
-     * `<CSI>` `28`
-     * 
      * @desc Reset hidden format
+     * @default formats.HIDDEN_RESET = '28'
      */
     HIDDEN_RESET = '28',
     
     /**
-     * `<CSI>` `29`
-     * 
      * @desc Reset strikethrough format
+     * @default formats.STRIKETHROUGH_RESET = '29'
      */
     STRIKETHROUGH_RESET = '29',
 
     /**
-     * `<CSI>` `50`
-     * 
      * @desc Reset proportional spacing format
+     * @default formats.PROPORTINAL_SPACING_RESET = '50'
      */
     PROPORTINAL_SPACING_RESET = '50',
 
     /**
-     * `<CSI>` `51`
-     * 
      * @desc Framed format
+     * @default formats.FRAMED = '51'
      */
     FRAMED = '51',
 
     /**
-     * `<CSI>` `52`
-     * 
      * @desc Encircled format
+     * @default formats.ENCIRCLED = '52'
      */
     ENCIRCLED = '52',
 
     /**
-     * `<CSI>` `53`
-     * 
      * @desc Overline format
+     * @default formats.OVERLINE = '53'
      */
     OVERLINE = '53',
 
     /**
-     * `<CSI>` `54`
-     * 
      * @desc Reset framed format
+     * @default formats.FRAMED_RESET = '54'
      */
     FRAMED_RESET = '54',
 
     /**
-     * `<CSI>` `54`
-     * 
      * @desc Reset encircled format
+     * @default formats.ENCIRCLED_RESET = '54'
      */
     ENCIRCLED_RESET = '54',
 
     /**
-     * `<CSI>` `55`
-     * 
      * @desc Reset overline format
+     * @default formats.OVERLINE_RESET = '55'
      */
     OVERLINE_RESET = '55',
 
     /**
-     * `<CSI>` `58`
-     * 
      * @desc Underline color format
+     * @default formats.UNDERLINE_COLOR = '58'
      */
     UNDERLINE_COLOR = '58',
 
     /**
-     * `<CSI>` `59`
-     * 
      * @desc Reset underline color format
+     * @default formats.UNDERLINE_COLOR_RESET = '59'
      */
     UNDERLINE_COLOR_RESET = '59',
 
     /**
-     * `<CSI>` `60`
-     * 
      * @desc Line ideogram right side format
+     * @default formats.LINE_IDEOGRAM_RIGHT_SIDE = '60'
      */
     LINE_IDEOGRAM_RIGHT_SIDE = '60',
 
     /**
-     * `<CSI>` `61`
-     * 
      * @desc Line ideogram double right side format
+     * @default formats.LINE_IDEOGRAM_DOUBLE_RIGHT_SIDE = '61'
      */
     LINE_IDEOGRAM_DOUBLE_RIGHT_SIDE = '61',
 
     /**
-     * `<CSI>` `62`
-     * 
      * @desc Line ideogram left side format
+     * @default formats.LINE_IDEOGRAM_LEFT_SIDE = '62'
      */
     LINE_IDEOGRAM_LEFT_SIDE = '62',
 
     /**
-     * `<CSI>` `63`
-     * 
      * @desc Line ideogram double left side format
+     * @default formats.LINE_IDEOGRAM_DOUBLE_LEFT_SIDE = '63'
      */
     LINE_IDEOGRAM_DOUBLE_LEFT_SIDE = '63',
 
     /**
-     * `<CSI>` `64`
-     * 
      * @desc Line ideogram stress marking format
+     * @default formats.LINE_IDEOGRAM_STRESS_MARKING = '64'
      */
     LINE_IDEOGRAM_STRESS_MARKING = '64',
 
     /**
-     * `<CSI>` `65`
-     * 
      * @desc Reset ideogram format
+     * @default formats.LINE_IDEOGRAM_RESET = '65'
      */
     LINE_IDEOGRAM_RESET = '65'
 }

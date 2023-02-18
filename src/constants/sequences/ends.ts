@@ -7,135 +7,116 @@
  */
 export enum ends {
     /**
-     * `A`
-     * 
      * @desc Cursor up ending sequence
+     * @default ends.CURSOR_UP = 'A'
      */
     CURSOR_UP = 'A',
 
     /**
-     * `B`
-     * 
      * @desc Cursor down ending sequence
+     * @default ends.CURSOR_DOWN = 'B'
      */
     CURSOR_DOWN = 'B',
 
     /**
-     * `C`
-     * 
      * @desc Cursor right ending sequence
+     * @default ends.CURSOR_RIGHT = 'C'
      */
     CURSOR_RIGHT = 'C',
 
     /**
-     * `D`
-     * 
      * @desc Cursor left ending sequence
+     * @default ends.CURSOR_LEFT = 'D'
      */
     CURSOR_LEFT = 'D',
 
     /**
-     * `E`
-     * 
      * @desc Cursor down start ending sequence
+     * @default ends.CURSOR_DOWN_START = 'E'
      */
     CURSOR_DOWN_START = 'E',
 
     /**
-     * `F`
-     * 
      * @desc Cursor up start ending sequence
+     * @default ends.CURSOR_UP_START = 'F'
      */
     CURSOR_UP_START = 'F',
 
     /**
-     * `G`
-     * 
      * @desc Cursor column ending sequence
+     * @default ends.CURSOR_COLUMN = 'G'
      */
     CURSOR_COLUMN = 'G',
 
     /**
-     * `H`
-     * 
      * @desc Cursor to ending sequence
+     * @default ends.CURSOR_TO = 'H'
      */
     CURSOR_TO = 'H',
 
     /**
-     * `J`
-     * 
      * @desc Display ending sequence
+     * @default ends.DISPLAY = 'J'
      */
     DISPLAY = 'J',
 
     /**
-     * `K`
-     * 
      * @desc Line ending sequence
+     * @default ends.LINE = 'K'
      */
     LINE = 'K',
 
     /**
-     * `S`
-     * 
      * @desc Scroll up ending sequence
+     * @default ends.SCROLL_UP = 'S'
      */
     SCROLL_UP = 'S',
 
     /**
-     * `T`
-     * 
      * @desc Scroll down ending sequence
+     * @default ends.SCROLL_DOWN = 'T'
      */
     SCROLL_DOWN = 'T',
     
     /**
-     * `m`
-     * 
      * @desc Color ending sequence
+     * @default ends.COLOR = 'm'
      */
     COLOR = 'm',
 
     /**
-     * `m`
-     * 
      * @desc Format ending sequence
+     * @default ends.FORMAT = 'm'
      */
     FORMAT = 'm',
 
     /**
-     * `n`
-     * 
      * @desc Cursor get position ending sequence
+     * @default ends.CURSOR_GET_POSITION = 'n'
      */
     CURSOR_GET_POSITION = 'n',
 
     /**
-     * `s`
-     * 
      * @desc Cursor save position ending sequence
+     * @default ends.CURSOR_SAVE_POSITION = 's'
      */
     CURSOR_SAVE_POSITION = 's',
 
     /**
-     * `u`
-     * 
      * @desc Cursor restore position ending sequence
+     * @default ends.CURSOR_RESTORE_POSITION = 'u'
      */
     CURSOR_RESTORE_POSITION = 'u',
 
     /**
-     * `u`
-     * 
      * @desc Cursor restore position ending sequence
+     * @default ends.CURSOR_SHOW = 'h'
      */
     CURSOR_SHOW = 'h',
 
     /**
-     * `u`
-     * 
      * @desc Cursor restore position ending sequence
+     * @default ends.CURSOR_HIDE = 'l'
      */
     CURSOR_HIDE = 'l'
 }

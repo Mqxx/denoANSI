@@ -7,67 +7,58 @@
  */
 export enum codes {
     /**
-     *  `\x07` | `\a`
-     * 
-     *  @desc Terminal bell
-     */
-    BEL = '\x07',
-
-    /**
-     *  `\x08` | `\b`
-     * 
-     *  @desc Backspace
-     */
-    BS = '\x08',
-
-    /**
-     *  `\x09` | `\t`
-     * 
-     *  @desc Horizontal TAB
-     */
-    HT = '\x09',
-
-    /**
-     *  `\x0A` | `\n`
-     * 
-     *  @desc Linefeed (newline)
-     */
-    LF = '\x0A',
-
-    /**
-     *  `\x0B` | `\v`
-     * 
-     *  @desc Vertical TAB
-     */
-    VT = '\x0B',
-
-    /**
-     *  `\x0C` | `\f`
-     * 
-     *  @desc Formfeed
-     */
-    FF = '\x0C',
-
-    /**
-     *  `\x0D` | `\r`
-     * 
-     *  @desc Carriage return (linestart)
-     */
-    CR = '\x0D',
-
-    /**
-     *  `\x1B` | `\e*`
+     * @desc Escape character `\e*`
      * 
      * *\*not guaranteed to work in all languages and compilers*
-     * 
-     * @desc Escape character
+     * @default codes.ESC = '\x1B'
      */
     ESC = '\x1B',
 
     /**
-     * `\x7F`
-     * 
+     * @desc Terminal bell `\a`
+     * @default codes.BEL = '\x07'
+     */
+    BEL = '\x07',
+
+    /**
+     * @desc Backspace `\b`
+     * @default codes.BS = '\x08'
+     */
+    BS = '\x08',
+
+    /**
+     * @desc Horizontal TAB `\t`
+     * @default codes.HT = '\x09'
+     */
+    HT = '\x09',
+
+    /**
+     * @desc Linefeed (newline) `\n`
+     * @default codes.LF = '\x0A'
+     */
+    LF = '\x0A',
+
+    /**
+     * @desc Vertical TAB `\v`
+     * @default codes.VT = '\x0B'
+     */
+    VT = '\x0B',
+
+    /**
+     * @desc Formfeed `\f`
+     * @default codes.FF = '\x0C'
+     */
+    FF = '\x0C',
+
+    /**
+     * @desc Carriage return (linestart) `\r`
+     * @default codes.CR = '\x0D'
+     */
+    CR = '\x0D',
+
+    /**
      * @desc Delete character
+     * @default codes.DEL = '\x7F'
      */
     DEL = '\x7F'
 }
