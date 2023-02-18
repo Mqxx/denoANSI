@@ -248,8 +248,85 @@ export enum formats {
     /**
      * `<CSI>` `53`
      * 
-     * @desc OVERLINE format
+     * @desc Overline format
      */
     OVERLINE = '53',
+
+    /**
+     * `<CSI>` `54`
+     * 
+     * @desc Reset framed format
+     */
+    FRAMED_RESET = '54',
+
+    /**
+     * `<CSI>` `54`
+     * 
+     * @desc Reset encircled format
+     */
+    ENCIRCLED_RESET = '54',
+
+    /**
+     * `<CSI>` `55`
+     * 
+     * @desc Reset overline format
+     */
+    OVERLINE_RESET = '55',
+
+    /**
+     * `<CSI>` `58`
+     * 
+     * @desc Underline color format
+     */
+    UNDERLINE_COLOR = '58',
+
+    /**
+     * `<CSI>` `59`
+     * 
+     * @desc Reset underline color format
+     */
+    UNDERLINE_COLOR_RESET = '59',
+
+    /**
+     * `<CSI>` `60`
+     * 
+     * @desc Line ideogram right side format
+     */
+    LINE_IDEOGRAM_RIGHT_SIDE = '60',
+
+    /**
+     * `<CSI>` `61`
+     * 
+     * @desc Line ideogram double right side format
+     */
+    LINE_IDEOGRAM_DOUBLE_RIGHT_SIDE = '61',
+
+    /**
+     * `<CSI>` `62`
+     * 
+     * @desc Line ideogram left side format
+     */
+    LINE_IDEOGRAM_LEFT_SIDE = '62',
+
+    /**
+     * `<CSI>` `63`
+     * 
+     * @desc Line ideogram double left side format
+     */
+    LINE_IDEOGRAM_DOUBLE_LEFT_SIDE = '63',
+
+    /**
+     * `<CSI>` `64`
+     * 
+     * @desc Line ideogram stress marking format
+     */
+    LINE_IDEOGRAM_STRESS_MARKING = '64',
+
+    /**
+     * `<CSI>` `65`
+     * 
+     * @desc Reset ideogram format
+     */
+    LINE_IDEOGRAM_RESET = '65',
     
 }
