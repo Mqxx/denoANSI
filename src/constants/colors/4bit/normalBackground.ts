@@ -9,72 +9,62 @@
  */
 export enum normalBackground {
     /**
-     * `0`
-     * 
-     * @desc Reset background
+     * @desc Background normal reset
+     * @default RESET = '0'
      */
     RESET = '0',
 
     /**
-     * `40`
-     * 
-     * @desc Black background
+     * @desc Background normal default
+     * @default DEFAULT = '49'
+     */
+    DEFAULT = '49',
+
+    /**
+     * @desc Background normal black
+     * @default BLACK = '40'
      */
     BLACK = '40',
 
     /**
-     * `41`
-     * 
-     * @desc Red background
+     * @desc Background normal red
+     * @default RED = '41'
      */
     RED = '41',
 
     /**
-     * `42`
-     * 
-     * @desc Green background
+     * @desc Background normal green
+     * @default GREEN = '42'
      */
     GREEN = '42',
 
     /**
-     * `43`
-     * 
-     * @desc Yellow background
+     * @desc Background normal yellow
+     * @default YELLOW = '43'
      */
     YELLOW = '43',
 
     /**
-     * `44`
-     * 
-     * @desc Blue background
+     * @desc Background normal blue
+     * @default BLUE = '44'
      */
     BLUE = '44',
 
     /**
-     * `45`
-     * 
-     * @desc Magenta background
+     * @desc Background normal magenta
+     * @default MAGENTA = '45'
      */
     MAGENTA = '45',
 
     /**
-     * `46`
-     * 
-     * @desc Cyan background
+     * @desc Background normal cyan
+     * @default CYAN = '46'
      */
     CYAN = '46',
 
     /**
-     * `47`
-     * 
-     * @desc White background
+     * @desc Background normal white
+     * @default WHITE = '47'
      */
-    WHITE = '47',
-
-    /**
-     * `49`
-     * 
-     * @desc Default background
-     */
-    DEFAULT = '49',
+    WHITE = '47'
 }

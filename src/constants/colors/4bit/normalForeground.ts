@@ -9,73 +9,62 @@
  */
 export enum normalForeground {
     /**
-     * `0`
-     * 
-     * @desc Reset foreground
+     * @desc Foreground normal reset
+     * @default RESET = '0'
      */
     RESET = '0',
 
     /**
-     * `30`
-     * 
-     * @desc Black foreground
+     * @desc Foreground normal default
+     * @default DEFAULT = '39'
+     */
+    DEFAULT = '39',
+
+    /**
+     * @desc Foreground normal black
+     * @default BLACK = '30'
      */
     BLACK = '30',
 
     /**
-     * `31`
-     * 
-     * @desc Red foreground
+     * @desc Foreground normal red
+     * @default RED = '31'
      */
     RED = '31',
 
     /**
-     * `32`
-     * 
-     * @desc Green foreground
+     * @desc Foreground normal green
+     * @default GREEN = '32'
      */
     GREEN = '32',
 
     /**
-     * `33`
-     * 
-     * @desc Yellow foreground
+     * @desc Foreground normal yellow
+     * @default YELLOW = '33'
      */
     YELLOW = '33',
 
     /**
-     * `34`
-     * 
-     * @desc Blue foreground
+     * @desc Foreground normal blue
+     * @default BLUE = '34'
      */
     BLUE = '34',
 
     /**
-     * `35`
-     * 
-     * @desc Magenta foreground
+     * @desc Foreground normal magenta
+     * @default MAGENTA = '35'
      */
     MAGENTA = '35',
 
     /**
-     * `36`
-     * 
-     * @desc Cyan foreground
+     * @desc Foreground normal cyan
+     * @default CYAN = '36'
      */
     CYAN = '36',
 
     /**
-     * `37`
-     * 
-     * @desc White foreground
+     * @desc Foreground normal white
+     * @default WHITE = '37'
      */
-    WHITE = '37',
-
-    /**
-     * `39`
-     * 
-     * @desc Deafult foreground
-     */
-    DEFAULT = '39',
-
+    WHITE = '37'
 }

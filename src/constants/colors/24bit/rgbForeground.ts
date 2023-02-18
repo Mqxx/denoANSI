@@ -9,9 +9,8 @@
  */
 export enum rgbForeground {
     /**
-     * `38;2`
-     * 
      * @desc RGB foreground color
+     * @default rgbForeground.RGB = '38;2'
      */
     RGB = '38;2'
 }

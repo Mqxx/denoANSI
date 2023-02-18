@@ -9,72 +9,62 @@
  */
 export enum brightBackground {
     /**
-     * `0`
-     * 
-     * @desc Reset bright background
+     * @desc Background bright reset
+     * @default RESET = '0'
      */
     RESET = '0',
-
+    
     /**
-     * `39`
-     * 
-     * @desc Default background
+     * @desc Background bright default
+     * @default DEFAULT = '39'
      */
     DEFAULT = '39',
     
     /**
-     * `100`
-     * 
-     * @desc Bright black background
+     * @desc Background bright black
+     * @default BLACK = '100'
      */
-    BRIGHT_BLACK = '100',
+    BLACK = '100',
 
     /**
-     * `101`
-     * 
-     * @desc Bright red background
+     * @desc Background bright red
+     * @default RED = '101'
      */
-    BRIGHT_RED = '101',
+    RED = '101',
 
     /**
-     * `102`
-     * 
-     * @desc Bright green background
+     * @desc Background bright green
+     * @default GREEN = '102'
      */
-    BRIGHT_GREEN = '102',
+    GREEN = '102',
 
     /**
-     * `103`
-     * 
-     * @desc Bright yellow background
+     * @desc Background bright yellow
+     * @default YELLOW = '103'
      */
-    BRIGHT_YELLOW = '103',
+    YELLOW = '103',
 
     /**
-     * `104`
-     * 
-     * @desc Bright blue background
+     * @desc Background bright blue
+     * @default BLUE = '104'
      */
-    BRIGHT_BLUE = '104',
+    BLUE = '104',
 
     /**
-     * `105`
-     * 
-     * @desc Bright magenta background
+     * @desc Background bright magenta
+     * @default MAGENTA = '105'
      */
-    BRIGHT_MAGENTA = '105',
+    MAGENTA = '105',
 
     /**
-     * `106`
-     * 
-     * @desc Bright cyan background
+     * @desc Background bright cyan
+     * @default CYAN = '106'
      */
-    BRIGHT_CYAN = '106',
+    CYAN = '106',
 
     /**
-     * `107`
-     * 
-     * @desc Bright white background
+     * @desc Background bright white
+     * @default WHITE = '107'
      */
-    BRIGHT_WHITG = '107'
+    WHITE = '107'
 }

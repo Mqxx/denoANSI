@@ -9,9 +9,8 @@
  */
 export enum rgbBackground {
     /**
-     * `48;2`
-     * 
      * @desc RGB background color
+     * @default rgbBackground.RGB = '48;2'
      */
     RGB = '48;2'
 }
