@@ -89,6 +89,13 @@ export enum ends {
      * @desc Scroll down ending sequence
      */
     SCROLL_DOWN = 'T',
+    
+    /**
+     * `m`
+     * 
+     * @desc Color ending sequence
+     */
+    COLOR = 'm',
 
     /**
      * `n`
@@ -111,12 +118,6 @@ export enum ends {
      */
     CURSOR_RESTORE_POSITION = 'u',
 
-    /**
-     * `m`
-     * 
-     * @desc Color ending sequence
-     */
-    COLOR = 'm',
 
     /**
      * `m`
