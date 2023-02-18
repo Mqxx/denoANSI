@@ -1,5 +1,3 @@
-
-
 export const erase = {
     displayFromToEnd: function() : void {
 

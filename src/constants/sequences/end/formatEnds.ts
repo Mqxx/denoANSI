@@ -3,7 +3,7 @@
  * @readonly
  * @enum {string}
  */
-export enum formats {
+export enum formatsEnds {
     /**
      * @desc Color ending sequence
      * @default formats.COLOR = 'm'

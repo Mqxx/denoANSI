@@ -3,7 +3,7 @@
  * @readonly
  * @enum {string}
  */
-export enum scroll {
+export enum scrollEnds {
     /**
      * @desc Scroll up ending sequence
      * @default scroll.UP = 'S'

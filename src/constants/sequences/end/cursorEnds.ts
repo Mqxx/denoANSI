@@ -3,7 +3,7 @@
  * @readonly
  * @enum {string}
  */
-export enum cursor {
+export enum cursorEnds {
     /**
      * @desc Cursor up ending sequence
      * @default cursor.UP = 'A'
