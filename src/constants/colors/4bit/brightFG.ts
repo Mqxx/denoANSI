@@ -12,7 +12,14 @@ export enum brightFG {
      * @desc Reset bright foreground
      */
     RESET = '0',
-
+    
+    /**
+     * `<CSI>` `39`
+     * 
+     * @desc Default foreground
+     */
+    DEFAULT = '39',
+    
     /**
      * `<CSI>` `90`
      * 
@@ -67,12 +74,5 @@ export enum brightFG {
      * 
      * @desc Bright white foreground
      */
-    BRIGHT_WHITE = '97',
-    
-    /**
-     * `<CSI>` `39`
-     * 
-     * @desc Default foreground
-     */
-    DEFAULT = '39',
+    BRIGHT_WHITE = '97'
 }
