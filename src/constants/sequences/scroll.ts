@@ -6,13 +6,13 @@
 export enum scroll {
     /**
      * @desc Scroll up ending sequence
-     * @default ends.UP = 'S'
+     * @default scroll.UP = 'S'
      */
     UP = 'S',
 
     /**
      * @desc Scroll down ending sequence
-     * @default ends.DOWN = 'T'
+     * @default scroll.DOWN = 'T'
      */
     DOWN = 'T'
 }
