@@ -244,41 +244,5 @@ export enum formats {
      * @desc Reset underline color format
      * @default formats.UNDERLINE_COLOR_RESET = '59'
      */
-    UNDERLINE_COLOR_RESET = '59',
-
-    /**
-     * @desc Line ideogram right side format
-     * @default formats.LINE_IDEOGRAM_RIGHT_SIDE = '60'
-     */
-    LINE_IDEOGRAM_RIGHT_SIDE = '60',
-
-    /**
-     * @desc Line ideogram double right side format
-     * @default formats.LINE_IDEOGRAM_DOUBLE_RIGHT_SIDE = '61'
-     */
-    LINE_IDEOGRAM_DOUBLE_RIGHT_SIDE = '61',
-
-    /**
-     * @desc Line ideogram left side format
-     * @default formats.LINE_IDEOGRAM_LEFT_SIDE = '62'
-     */
-    LINE_IDEOGRAM_LEFT_SIDE = '62',
-
-    /**
-     * @desc Line ideogram double left side format
-     * @default formats.LINE_IDEOGRAM_DOUBLE_LEFT_SIDE = '63'
-     */
-    LINE_IDEOGRAM_DOUBLE_LEFT_SIDE = '63',
-
-    /**
-     * @desc Line ideogram stress marking format
-     * @default formats.LINE_IDEOGRAM_STRESS_MARKING = '64'
-     */
-    LINE_IDEOGRAM_STRESS_MARKING = '64',
-
-    /**
-     * @desc Reset ideogram format
-     * @default formats.LINE_IDEOGRAM_RESET = '65'
-     */
-    LINE_IDEOGRAM_RESET = '65'
+    UNDERLINE_COLOR_RESET = '59'
 }
