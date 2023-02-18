@@ -147,6 +147,20 @@ export enum formats {
     FONT_ALTERNATIVE_9 = '19',
 
     /**
+     * `<CSI>` `20`
+     * 
+     * @desc Fractur format
+     */
+    FRACTUR = '20',
+
+    /**
+     * `<CSI>` `21`
+     * 
+     * @desc Underline double format
+     */
+    UNDERLINE_DOUBLE = '21',
+
+    /**
      * `<CSI>` `22`
      * 
      * @desc Reset bold format
@@ -181,9 +195,16 @@ export enum formats {
      * @desc Reset blinking format
      */
     BLINKING_RESET = '25',
+
+    /**
+     * `<CSI>` `26`
+     * 
+     * @desc Proportional spacing format
+     */
+    PROPORTINAL_SPACING = '26',
     
     /**
-     * `<CSI>` `25`
+     * `<CSI>` `27`
      * 
      * @desc Reset inverse format
      */
@@ -202,5 +223,33 @@ export enum formats {
      * @desc Reset strikethrough format
      */
     STRIKETHROUGH_RESET = '29',
+
+    /**
+     * `<CSI>` `50`
+     * 
+     * @desc Reset proportional spacing format
+     */
+    PROPORTINAL_SPACING_RESET = '50',
+
+    /**
+     * `<CSI>` `51`
+     * 
+     * @desc Framed format
+     */
+    FRAMED = '51',
+
+    /**
+     * `<CSI>` `52`
+     * 
+     * @desc Encircled format
+     */
+    ENCIRCLED = '52',
+
+    /**
+     * `<CSI>` `53`
+     * 
+     * @desc OVERLINE format
+     */
+    OVERLINE = '53',
     
 }
