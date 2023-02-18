@@ -12,25 +12,31 @@ export enum controls {
 
     /**
      * @desc Control Sequence Introducer
-     * @default controls.CSI = '\x1B['
+     * @default controls.CSI = '['
      */
-    CSI = '\x1B[',
+    CSI = '[',
 
     /**
      * @desc Device Control String
-     * @default controls.DCS = '\x1BP'
+     * @default controls.DCS = 'P'
      */
-    DCS = '\x1BP',
+    DCS = 'P',
 
     /**
      * @desc Operating System Command
-     * @default controls.OSC = '\x1B]'
+     * @default controls.OSC = ']'
      */
-    OSC = '\x1B]',
+    OSC = ']',
 
     /**
      * @desc Separator
      * @default controls.SEP = ';'
      */
-    SEP = ';'
+    SEP = ';',
+
+    /**
+     * @desc Private mode
+     * @default controls.SEP = '?'
+     */
+    PRIVATE = '?'
 }
