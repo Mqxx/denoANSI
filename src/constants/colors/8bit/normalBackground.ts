@@ -1,8 +1,10 @@
 /**
- * `<CSI>` `48;5;{hex 1};{hex 2};{hex n}m`
- * 
  * @desc ANSI 8-Bit background colors normal
  * @readonly
+ * @example
+ * 
+ * '<CSI>{hex 1};{hex 2};{hex n}m'
+ * 
  * @enum {string}
  */
 export enum normalBackground {

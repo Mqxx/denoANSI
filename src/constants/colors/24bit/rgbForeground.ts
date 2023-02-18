@@ -1,8 +1,10 @@
 /**
- * `<CSI>` `38;2;{r};{g};{b}m`
- * 
  * @desc ANSI 24-Bit foreground color rgb
  * @readonly
+ * @example
+ * 
+ * '<CSI>38;2;{r};{g};{b}m'
+ * 
  * @enum {string}
  */
 export enum rgbForeground {

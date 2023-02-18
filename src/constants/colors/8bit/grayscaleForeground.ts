@@ -1,8 +1,10 @@
 /**
- * `<CSI>` `38;5;{hex 1};{hex 2};{hex n}m`
- * 
  * @desc ANSI 8-Bit foreground colors grayscale
  * @readonly
+ * @example
+ * 
+ * '<CSI>{hex 1};{hex 2};{hex n}m'
+ * 
  * @enum {string}
  */
 export enum grayscaleForeground {

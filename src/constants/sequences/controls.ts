@@ -5,7 +5,7 @@
  * @readonly
  * @enum {string}
  */
-export enum sequences {
+export enum controls {
     /**
      * `\x1B`
      * 
