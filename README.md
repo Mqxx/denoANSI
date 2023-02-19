@@ -2,6 +2,7 @@
 An ANSI escape codes library for Deno.
 
 ## `cursor`
+Cursor object.
 
 ### `cursor.home()`
 Moves the cursor to the top left corner of the terminal.
