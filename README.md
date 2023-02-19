@@ -1,4 +1,4 @@
 # denoANSI
- An ANSI escape codes library for Deno.
+An ANSI escape codes library for Deno.
 
 WIP!
