@@ -1,7 +1,7 @@
 # denoANSI
 An ANSI escape codes library for Deno.
 
-## Cursor
+## `cursor`
 
 ### `cursor.home()`
 Moves the cursor to the top left corner of the terminal.
@@ -28,7 +28,7 @@ If the position is negative outside the terminal, then the cursor is placed in t
 
 ###### syntax
 ```ts
-function moveTo(position: cursorPosition) : Promise<void>
+function moveTo(position : cursorPosition) : Promise<void>
 ```
 
 ###### example
@@ -42,20 +42,39 @@ await cursor.moveTo({row: 9, column: 19});
 ----
 
 ### `cursor.moveUp()`
-Moves the cursor to a specific position in the terminal. The index starts from 0.
+Moves the cursor a specified amount of rows up. The position in the column remains the same.
 
-If the position is positive outside the terminal, then the cursor is placed in the bottom right corner.<br>
-If the position is negative outside the terminal, then the cursor is placed in the top left corner.
+If the number is greater than the cursor can move up, then the cursor gets moved all the way up.
 
 ###### syntax
 ```ts
-function moveTo(position: cursorPosition) : Promise<void>
+function moveUp(amount? : number) : Promise<void>
 ```
 
 ###### example
 ```ts
-// Moves the cursor to the 10th row and to the 20th column.
-await cursor.moveTo({row: 9, column: 19});
+// Moves the cursor 5 rows up.
+await cursor.moveUp(5);
+```
+
+<br>
+
+----
+
+### `cursor.moveDown()`
+Moves the cursor a specified amount of rows down. The position in the column remains the same.
+
+If the number is greater than the cursor can move down, then the cursor gets moved all the way down.
+
+###### syntax
+```ts
+function moveDown(amount? : number) : Promise<void>
+```
+
+###### example
+```ts
+// Moves the cursor 7 rows down.
+await cursor.moveDown(7);
 ```
 
 <br>
