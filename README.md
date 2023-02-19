@@ -3,7 +3,7 @@ An ANSI escape codes library for Deno.
 
 ## Cursor
 
-### cursor.home()
+### `cursor.home()`
 Moves the cursor to the top left corner of the terminal.
 
 ###### syntax
@@ -41,7 +41,7 @@ await cursor.moveTo({row: 9, column: 19});
 
 ----
 
-### cursor.moveUp()
+### `cursor.moveUp()`
 Moves the cursor to a specific position in the terminal. The index starts from 0.
 
 If the position is positive outside the terminal, then the cursor is placed in the bottom right corner.<br>
