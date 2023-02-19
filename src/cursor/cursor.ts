@@ -146,8 +146,8 @@ async function moveUpStart(amount? : number) : Promise<void> {
  * await cursor.moveToColumn(9);
  * ```
  */
-async function moveToColumn(amount : number) : Promise<void> {
-    await _writeToOutput(controls.ESC + controls.CSI + amount + cursorEnds.TO_COLUMN)
+async function moveToColumn(to : number) : Promise<void> {
+    await _writeToOutput(controls.ESC + controls.CSI + to + cursorEnds.TO_COLUMN)
 }
 
 /**

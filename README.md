@@ -179,7 +179,7 @@ If the absolute position is negative outside the terminal, then the cursor is se
 
 ###### syntax
 ```ts
-function moveToColumn(amount : number) : Promise<void>
+function moveToColumn(to : number) : Promise<void>
 ```
 
 ###### example
