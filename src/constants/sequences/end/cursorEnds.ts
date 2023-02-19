@@ -44,13 +44,19 @@ export enum cursorEnds {
      * @desc Cursor column ending sequence
      * @default cursor.COLUMN = 'G'
      */
-    COLUMN = 'G',
+    TO_COLUMN = 'G',
 
     /**
      * @desc Cursor to ending sequence
      * @default cursor.TO = 'H'
      */
     TO = 'H',
+
+    /**
+     * @desc Cursor home ending sequence
+     * @default cursor.HOME = 'H'
+     */
+    HOME = 'H',
     
     /**
      * @desc Cursor get position ending sequence
@@ -60,25 +66,25 @@ export enum cursorEnds {
 
     /**
      * @desc Cursor save position ending sequence
-     * @default cursor.SAVE_POSITION = 's'
+     * @default cursor.SAVE_POSITION = '7'
      */
-    SAVE_POSITION = 's',
+    SAVE_POSITION = '7',
 
     /**
      * @desc Cursor restore position ending sequence
-     * @default cursor.RESTORE_POSITION = 'u'
+     * @default cursor.RESTORE_POSITION = '8'
      */
-    RESTORE_POSITION = 'u',
+    RESTORE_POSITION = '8',
 
     /**
      * @desc Cursor restore position ending sequence
-     * @default cursor.SHOW = 'h'
+     * @default cursor.SHOW = '25h'
      */
-    SHOW = 'h',
+    SHOW = '25h',
 
     /**
      * @desc Cursor restore position ending sequence
-     * @default cursor.HIDE = 'l'
+     * @default cursor.HIDE = '25l'
      */
-    HIDE = 'l'
+    HIDE = '25l'
 }
