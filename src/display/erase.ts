@@ -1,5 +1,6 @@
 import { controls } from "../constants/sequences/controls.ts";
 import { eraseEnds } from '../constants/sequences/end/eraseEnds.ts'
+import { cursor } from "../cursor/cursor.ts";
 import { _writeToOutput, _readFromOutput } from '../constants/stdio.ts'
 
 
@@ -64,8 +65,11 @@ async function displayAllSaved() : Promise<void> {
  * await erase.lineFromToEnd()
  * ```
  */
-async function lineFromToEnd() : Promise<void> {
-    await _writeToOutput()
+async function lineFromToEnd(from? : number) : Promise<void> {
+    const { row, column } = await cursor.getPosition()
+    await cursor.moveToColumn(from || column)
+    await _writeToOutput(controls.ESC + controls.CSI + 0 + eraseEnds.LINE)
+    await cursor.moveToColumn(column)
 }
 
 /**
@@ -77,8 +81,11 @@ async function lineFromToEnd() : Promise<void> {
  * await erase.lineFromToStart()
  * ```
  */
-async function lineFromToStart(from : number) : Promise<void> {
+async function lineFromToStart(from? : number) : Promise<void> {
+    const { row, column } = await cursor.getPosition()
+    await cursor.moveToColumn(from || column)
     await _writeToOutput(controls.ESC + controls.CSI + 1 + eraseEnds.LINE)
+    await cursor.moveToColumn(column)
 }
 
 /**
