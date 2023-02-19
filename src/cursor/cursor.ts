@@ -1,22 +1,10 @@
 import { controls } from '../constants/sequences/controls.ts'
 import { cursorEnds } from '../constants/sequences/end/cursorEnds.ts'
-
-const textEncoder = new TextEncoder()
-const textDecoder = new TextDecoder()
+import { _writeToOutput, _readFromOutput } from '../constants/stdio.ts'
 
 interface cursorPosition {
     row : number,
     column : number
-}
-
-async function _writeToOutput(text : string) : Promise<void> {
-    await Deno.stdout.write(textEncoder.encode(text))
-}
-
-async function _readFromOutput(bufferSize : number) : Promise<string> {
-    const buffer = new Uint8Array(bufferSize)
-    await Deno.stdin.read(buffer)
-    return textDecoder.decode(buffer.copyWithin(0, 1))
 }
 
 /**
