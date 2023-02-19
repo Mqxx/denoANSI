@@ -100,3 +100,105 @@ await cursor.moveRight(3);
 <br>
 
 ----
+
+### `cursor.moveLeft()`
+Moves the cursor a specified amount of columns to the left. The position in the row remains the same.
+
+If the number is greater than the cursor can move to the left, then the cursor gets moved all the way to the left side.
+
+###### syntax
+```ts
+function moveLeft(amount? : number) : Promise<void>
+```
+
+###### example
+```ts
+// Moves the cursor 6 columns to the left.
+await cursor.moveLeft(6);
+```
+
+<br>
+
+----
+
+### `cursor.moveDownStart()`
+Moves the cursor a specified amount of rows down. The position in the column is reset to the start.
+
+If the number is greater than the cursor can move down, then the cursor gets moved all the way down.
+
+###### syntax
+```ts
+function moveDownStart(amount? : number) : Promise<void>
+```
+
+###### example
+```ts
+// Moves the cursor 2 rows down.
+await cursor.moveDownStart(2);
+```
+
+<br>
+
+----
+
+### `cursor.moveUpStart()`
+Moves the cursor a specified amount of columns up. The position in the column is reset to the start.
+
+If the number is greater than the cursor can move up, then the cursor gets moved all the way up.
+
+###### syntax
+```ts
+function moveUpStart(amount? : number) : Promise<void>
+```
+
+###### example
+```ts
+// Moves the cursor 2 rows up.
+await cursor.moveUpStart(2);
+```
+
+<br>
+
+----
+
+### `cursor.moveToColumn()`
+Sets the cursor to an absolute position in the column. The position in the row remains the same.
+
+If the absolute position is positive outside the terminal, then the cursor is set to the right side.
+If the absolute position is negative outside the terminal, then the cursor is set to the left side.
+
+###### syntax
+```ts
+function moveToColumn(amount : number) : Promise<void>
+```
+
+###### example
+```ts
+// Sets the cursor to the 9th absolute column.
+await cursor.moveToColumn(9);
+```
+
+<br>
+
+----
+
+### `cursor.getPosition()`
+Get the current absolute position of the cursor.
+
+###### syntax
+```ts
+function getPosition() : Promise<cursorPosition>
+```
+
+###### example
+```ts
+// Get the absolut cursor position.
+const position = await cursor.getPosition();
+
+// Log the row and column position
+console.log(`Row: ${position.row}, Column: ${position.column}`);
+```
+
+<br>
+
+----
