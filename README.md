@@ -1,4 +1,4 @@
-# denoANSI
+# deno_ansi
 An ANSI escape codes library for Deno.
 
 ## `cursor`
