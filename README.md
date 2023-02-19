@@ -80,3 +80,23 @@ await cursor.moveDown(7);
 <br>
 
 ----
+
+### `cursor.moveRight()`
+Moves the cursor a specified amount of columns to the right. The position in the row remains the same.
+
+If the number is greater than the cursor can move to the right, then the cursor gets moved all the way to the right side.
+
+###### syntax
+```ts
+function moveRight(amount? : number) : Promise<void>
+```
+
+###### example
+```ts
+// Moves the cursor 3 columns to the right.
+await cursor.moveRight(3);
+```
+
+<br>
+
+----
