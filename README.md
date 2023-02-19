@@ -4,6 +4,15 @@ An ANSI escape codes library for Deno.
 ## `cursor`
 Cursor object.
 
+###### syntax
+```ts
+const cursor: {...}
+```
+
+<br>
+
+----
+
 ### `cursor.home()`
 Moves the cursor to the top left corner of the terminal.
 
