@@ -20,7 +20,7 @@ await cursor.home();
 
 ----
 
-### cursor.moveTo()
+### `cursor.moveTo()`
 Moves the cursor to a specific position in the terminal. The index starts from 0.
 
 If the position is positive outside the terminal, then the cursor is placed in the bottom right corner.<br>
