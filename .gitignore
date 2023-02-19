@@ -1,3 +1,6 @@
-.gitignore
+# directories
 .vscode/
+
+# files
+.gitignore
 main.ts
