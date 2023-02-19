@@ -1,4 +1,13 @@
 # denoANSI
 An ANSI escape codes library for Deno.
 
-WIP!
+## Cursor
+
+### home()
+#### syntax
+```ts
+function home() : Promise<void>
+```
+
+
+
