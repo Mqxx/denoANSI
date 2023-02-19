@@ -203,3 +203,72 @@ console.log(`Row: ${position.row}, Column: ${position.column}`);
 <br>
 
 ----
+
+### `cursor.savePosition()`
+Save the current absolute position of the cursor.
+
+The position is stored internally. Only one position can be saved at a time.
+
+###### syntax
+```ts
+function savePosition() : Promise<void>
+```
+
+###### example
+```ts
+await cursor.savePosition();
+```
+
+<br>
+
+----
+
+### `cursor.restorePosition()`
+Restore the currently saved absolute position of the cursor.
+
+###### syntax
+```ts
+function restorePosition() : Promise<void>
+```
+
+###### example
+```ts
+await cursor.restorePosition();
+```
+
+<br>
+
+----
+
+### `cursor.show()`
+Show the cursor.
+
+###### syntax
+```ts
+function show() : Promise<void>
+```
+
+###### example
+```ts
+await cursor.show();
+```
+
+<br>
+
+----
+
+### `cursor.hide()`
+Hide the cursor.
+
+###### syntax
+```ts
+function hide() : Promise<void>
+```
+
+###### example
+```ts
+await cursor.hide();
+```
+
+<br>
+
