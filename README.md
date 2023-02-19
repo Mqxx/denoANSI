@@ -9,5 +9,8 @@ An ANSI escape codes library for Deno.
 function home() : Promise<void>
 ```
 
-
+#### example
+```ts
+await cursor.home();
+```
 
