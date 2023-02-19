@@ -26,13 +26,16 @@ async function displayFromToEnd() : Promise<void> {
  * await erase.displayFromToStart()
  * ```
  */
-async function displayFromToStart() : Promise<void> {
-    await _writeToOutput()
+async function displayFromToStart(position : position) : Promise<void> {
+    const { row, column } = await cursor.getPosition()
+    await cursor.moveTo({row, column})
+    await _writeToOutput(controls.ESC + controls.CSI + 1 + eraseEnds.DISPLAY)
+    await cursor.moveToColumn(column)
 }
 
 /**
  * @desc
- * 
+ * Delete the entire display.
  * 
  * @example
  * ```ts
@@ -40,12 +43,12 @@ async function displayFromToStart() : Promise<void> {
  * ```
  */
 async function displayAll() : Promise<void> {
-    await _writeToOutput()
+    await _writeToOutput(controls.ESC + controls.CSI + 2 + eraseEnds.DISPLAY)
 }
 
 /**
  * @desc
- * 
+ * Delete the entire display and all stored lines in the scrollbar buffer.
  * 
  * @example
  * ```ts
@@ -53,12 +56,12 @@ async function displayAll() : Promise<void> {
  * ```
  */
 async function displayAllSaved() : Promise<void> {
-    await _writeToOutput()
+    await _writeToOutput(controls.ESC + controls.CSI + 3 + eraseEnds.DISPLAY)
 }
 
 /**
  * @desc
- * 
+ * Delete a line from a start point to the end.
  * 
  * @example
  * ```ts
@@ -74,7 +77,7 @@ async function lineFromToEnd(from? : number) : Promise<void> {
 
 /**
  * @desc
- * 
+ * Delete a line from a start point to the start.
  * 
  * @example
  * ```ts
